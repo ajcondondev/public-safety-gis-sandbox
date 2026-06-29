@@ -1,0 +1,28 @@
+# Normalize line endings: store text as LF in the repo, check out native on Windows.
+* text=auto eol=lf
+
+# Explicitly treat these as text.
+*.py    text
+*.md    text
+*.sql   text
+*.yml   text
+*.yaml  text
+*.csv   text
+*.json  text
+*.geojson text
+*.html  text
+*.sh    text eol=lf
+*.ps1   text eol=crlf
+
+# Binary assets — never normalize.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.sqlite binary
+*.ipynb text
+
+# Collapse generated/derived files in GitHub diffs (still tracked, just folded).
+outputs/**            linguist-generated=true
+data/simulated/**     linguist-generated=true
+data/processed/**     linguist-generated=true

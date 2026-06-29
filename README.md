@@ -1,10 +1,34 @@
-# Concord–Manchester Public Safety GIS Readiness Dashboard
+<div align="center">
 
-> **This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
+# 🛰️ Concord–Manchester Public Safety GIS Readiness Dashboard
+
+**An end-to-end public-safety GIS pipeline — clean → validate → analyze → map → dashboard → report — for the Concord-to-Manchester, NH emergency-response corridor.**
+
+[![CI](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml/badge.svg)](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-12%20passing-brightgreen.svg)](tests/test_pipeline.py)
+![Built with](https://img.shields.io/badge/built%20with-pandas%20%7C%20SQLite%20%7C%20Leaflet-orange)
+![Domain](https://img.shields.io/badge/domain-Public%20Safety%20GIS-1b3a5b)
+![Status](https://img.shields.io/badge/status-portfolio%20demo-blueviolet)
+![Use](https://img.shields.io/badge/⚠%20use-demonstration%20only-red)
+
+</div>
+
+> **⚠️ This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
 
 A self-contained, runnable demonstration of the work a **GIS Solutions Engineer** does in a public-safety / emergency-management setting: collect and clean geospatial data, model it, validate its quality, run spatial analysis, automate the whole pipeline, and produce map- and dashboard-ready outputs with stakeholder documentation.
 
 The scenario is a mock emergency-planning system for the **Concord → Manchester, New Hampshire** corridor (along I-93 / NH-3). It is modeled on the responsibilities of a *State of New Hampshire, Department of Safety — GIS Solutions Engineer (Program Specialist IV)* role supporting the Division of Emergency Services and Communications.
+
+### 📸 Preview
+
+| Regional response assets | Incident priority |
+|:---:|:---:|
+| ![Regional overview map](outputs/maps/regional_overview.png) | ![Incident priority map](outputs/maps/incident_priority.png) |
+| *Fire / EMS / police / EOC / public-works facilities, shelters (by status), hospitals, and simulated hazard zones.* | *120 simulated incidents scored and ranked P1–P4 by severity, status, hazard exposure, and facility distance.* |
+
+> Two more artifacts open in any browser with **no GIS software** — an interactive Leaflet web map (`outputs/maps/interactive_map.html`) and a self-contained operational dashboard (`outputs/dashboard/index.html`).
 
 ---
 
@@ -25,6 +49,8 @@ The scenario is a mock emergency-planning system for the **Concord → Mancheste
 13. [Troubleshooting](#troubleshooting)
 14. [Limitations & safety disclaimer](#limitations--safety-disclaimer)
 15. [Future improvements](#future-improvements)
+16. [Testing & CI](#testing--ci)
+17. [License](#license)
 
 ---
 
@@ -266,6 +292,23 @@ facilities). Field reports would flow in via **Survey123**. See
 - Add **PowerBI** report files (`.pbix`) built on the dashboard CSVs.
 - Promote the SQLite staging model to a **SQL Server enterprise geodatabase** with enforced keys and a geometry column.
 
+## Testing & CI
+
+- **12 automated tests** (`tests/test_pipeline.py`, stdlib `unittest`) cover the geometry math (haversine, point-in-polygon), GeoJSON conversion, and every QA/QC validation rule. Run with `python -m unittest discover -s tests -v` or `make test`.
+- **GitHub Actions** ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the tests and rebuilds the entire pipeline from scratch on Python 3.10 and 3.12 on every push, then verifies all key artifacts were produced — proving the project builds on a clean machine, not just locally.
+
+## License
+
+Released under the [MIT License](LICENSE). Note the use restriction in the
+disclaimer above: this is a portfolio demonstration, not an operational tool.
+
 ---
 
-*Built as a learning/portfolio project. See `internal_reference/` (git-ignored) for the role research that informed the design.*
+<div align="center">
+
+**Built as a public-safety GIS portfolio project.**
+Python · pandas · SQLite · GeoJSON · Leaflet · matplotlib · ArcGIS-ready workflows
+
+*The role research that informed the design lives in `internal_reference/` (git-ignored and intentionally excluded from this repository).*
+
+</div>
