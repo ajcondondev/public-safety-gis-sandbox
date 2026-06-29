@@ -36,21 +36,22 @@ The scenario is a mock emergency-planning system for the **Concord → Mancheste
 
 1. [What is a GIS Solutions Engineer?](#what-is-a-gis-solutions-engineer)
 2. [What this project demonstrates](#what-this-project-demonstrates)
-3. [The emergency-planning scenario](#the-emergency-planning-scenario)
-4. [Target users](#target-users)
-5. [Data workflow](#data-workflow)
-6. [Tools used](#tools-used)
-7. [Repository structure](#repository-structure)
-8. [Setup](#setup)
-9. [How to run the pipeline](#how-to-run-the-pipeline)
-10. [Outputs generated](#outputs-generated)
-11. [What would be done in ArcGIS Pro](#what-would-be-done-in-arcgis-pro)
-12. [What would be published to ArcGIS Online](#what-would-be-published-to-arcgis-online)
-13. [Troubleshooting](#troubleshooting)
-14. [Limitations & safety disclaimer](#limitations--safety-disclaimer)
-15. [Future improvements](#future-improvements)
-16. [Testing & CI](#testing--ci)
-17. [License](#license)
+3. [Educational guide — learn the concepts](#educational-guide--learn-the-concepts-behind-the-code)
+4. [The emergency-planning scenario](#the-emergency-planning-scenario)
+5. [Target users](#target-users)
+6. [Data workflow](#data-workflow)
+7. [Tools used](#tools-used)
+8. [Repository structure](#repository-structure)
+9. [Setup](#setup)
+10. [How to run the pipeline](#how-to-run-the-pipeline)
+11. [Outputs generated](#outputs-generated)
+12. [What would be done in ArcGIS Pro](#what-would-be-done-in-arcgis-pro)
+13. [What would be published to ArcGIS Online](#what-would-be-published-to-arcgis-online)
+14. [Troubleshooting](#troubleshooting)
+15. [Limitations & safety disclaimer](#limitations--safety-disclaimer)
+16. [Future improvements](#future-improvements)
+17. [Testing & CI](#testing--ci)
+18. [License](#license)
 
 ---
 
@@ -88,6 +89,29 @@ See [`docs/project_overview.md`](docs/project_overview.md) for how each project 
 | Field data collection | [`docs/survey123_design.md`](docs/survey123_design.md) |
 | Narrative / public information | [`docs/storymap_outline.md`](docs/storymap_outline.md) |
 | Stakeholder communication | [`docs/stakeholder_brief.md`](docs/stakeholder_brief.md), `scripts/06_generate_summary_report.py` |
+| Authoritative public-data ETL | [`scripts/optional/fetch_nws_alerts.py`](scripts/optional/fetch_nws_alerts.py) (live NWS feed) |
+
+## Educational guide — learn the concepts behind the code
+
+This project doubles as a **study tool** for the public-safety GIS field. Three
+docs make the concepts explicit:
+
+- 📘 **[Learning guide](docs/learning_guide.md)** — every GIS concept mapped to the exact code that demonstrates it, plus "try this" exercises and interview prompts.
+- 📑 **[Glossary](docs/glossary.md)** — GIS, data, Esri, and emergency-management terms in plain English.
+- 🗺️ **[Architecture](docs/architecture.md)** — diagrams of the pipeline, data flow, and relational data model (rendered by GitHub).
+
+### How it supports the four phases of emergency management
+
+GIS supports the full emergency-management lifecycle — and so does this project:
+
+| Phase | Meaning | In this project |
+|---|---|---|
+| **Preparedness** | Get ready before anything happens. | Facility/shelter/hospital layers + town readiness summary show coverage ahead of time. |
+| **Mitigation** | Reduce long-term risk. | Hazard-exposure analysis flags assets inside hazard zones to guide investment. |
+| **Response** | Act during the emergency. | Incident priority + nearest-facility proximity + live map/dashboard = a **common operating picture**. |
+| **Recovery** | Return to normal afterward. | QA + summary reports document what the data showed (after-action input). |
+
+> **New Hampshire context:** the corridor is a realistic choice — Concord is a regional Fire/EMS dispatch hub and the seat of the state's emergency communications function, and the state maintains specialized products such as Radiological Emergency Response Plan (RERP) map layers. This project mirrors that "one trustworthy regional picture across many town boundaries" need on a safe, simulated scale.
 
 ## The emergency-planning scenario
 
@@ -154,6 +178,7 @@ data/
   simulated/    generated demo CSVs + hazard GeoJSON (script 01)
   processed/    cleaned, standardized CSVs (script 02)
 scripts/        01–09 pipeline + common.py helpers + run_pipeline.py
+  optional/     fetch_nws_alerts.py (live ETL), arcpy_publish_mapbook.py
 sql/            schema.sql, qa_queries.sql, summary_queries.sql
 tests/          test_pipeline.py (unittest: geometry + validation)
 notebooks/      exploratory_analysis.ipynb
@@ -164,7 +189,8 @@ outputs/
   maps/         interactive_map.html + static PNG maps
   dashboard/    index.html (self-contained operational dashboard)
   metadata/     per-layer metadata sheets + metadata.json
-docs/           project_overview, data_dictionary, data_sources, qa_qc_plan,
+docs/           learning_guide, glossary, architecture (diagrams),
+                project_overview, data_dictionary, data_sources, qa_qc_plan,
                 arcgis_workflow, arcade_examples, dashboard_design,
                 storymap_outline, survey123_design, stakeholder_brief
 ```
