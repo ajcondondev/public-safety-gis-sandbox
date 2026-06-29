@@ -10,16 +10,26 @@
 [![Tests](https://img.shields.io/badge/tests-12%20passing-brightgreen.svg)](tests/test_pipeline.py)
 ![Built with](https://img.shields.io/badge/built%20with-pandas%20%7C%20SQLite%20%7C%20Leaflet-orange)
 ![Domain](https://img.shields.io/badge/domain-Public%20Safety%20GIS-1b3a5b)
-![Status](https://img.shields.io/badge/status-portfolio%20demo-blueviolet)
+![Status](https://img.shields.io/badge/status-learning%20project-blueviolet)
 ![Use](https://img.shields.io/badge/⚠%20use-demonstration%20only-red)
 
 </div>
 
-> **⚠️ This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
+## What this is
 
-A self-contained, runnable demonstration of the work a **GIS Solutions Engineer** does in a public-safety / emergency-management setting: collect and clean geospatial data, model it, validate its quality, run spatial analysis, automate the whole pipeline, and produce map- and dashboard-ready outputs with stakeholder documentation.
+I'm genuinely curious about how GIS supports public safety and emergency management, and the way I learn best is by building. So I made this — a hands-on exploration of the full geospatial workflow behind emergency planning: **clean → validate (QA/QC) → spatial analysis → maps, an interactive dashboard, a SQL database, and reports** — set in a simulated Concord-to-Manchester, New Hampshire corridor.
 
-The scenario is a mock emergency-planning system for the **Concord → Manchester, New Hampshire** corridor (along I-93 / NH-3). It is modeled on the responsibilities of a *State of New Hampshire, Department of Safety — GIS Solutions Engineer (Program Specialist IV)* role supporting the Division of Emergency Services and Communications.
+It's a **learning project**: a way to actually work through the concepts, tools, and trade-offs in this field instead of just reading about them — and to explain what I found along the way. Everything runs from Python in seconds, and **all data is simulated and safe** (no real 911 or private data).
+
+- 🔍 **Curious how public-safety GIS works?** It walks through the ideas concept by concept — start with the [Learning guide](docs/learning_guide.md) and [Glossary](docs/glossary.md).
+- 🗺️ **Just want to see it?** Open **`outputs/index.html`** — it links the interactive map, the dashboard, and the reports (no GIS software needed).
+- 🧰 **What it touches:** data engineering, QA/QC, spatial analysis, SQL, dashboards, automation, and documentation — end to end.
+
+> **⚠️ This is a personal learning / portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
+
+Along the way it works through the kind of tasks involved in public-safety and emergency-management GIS — collecting and cleaning geospatial data, modeling it, validating its quality, running spatial analysis, automating the workflow, and producing map- and dashboard-ready outputs with clear documentation.
+
+I used the **Concord → Manchester, New Hampshire** corridor (along I-93 / NH-3) to keep it concrete. The work is inspired by how GIS supports state emergency services and communications — including roles such as a **GIS Solutions Engineer** — but it's a project I built to learn, not something tied to any specific employer or position.
 
 ### 📸 Preview
 
