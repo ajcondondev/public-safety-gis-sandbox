@@ -1,0 +1,39 @@
+# =============================================================================
+# .gitignore — Concord-Manchester Public Safety GIS Readiness Dashboard
+# -----------------------------------------------------------------------------
+# Design choice: this is a PORTFOLIO repo, so the simulated datasets and the
+# generated map-ready outputs (GeoJSON, dashboard CSVs, Markdown reports) ARE
+# committed — a hiring manager should be able to browse the results on GitHub
+# without cloning and running anything. Only private notes, local config, and
+# bulky/binary/reproducible artifacts are ignored.
+# =============================================================================
+
+# --- Internal reference / planning material (private; review-only) -----------
+internal_reference/
+
+# --- Local configuration (machine-specific paths / private settings) ---------
+config/config.yml
+
+# --- Binary, reproducible database (regenerate with sql/ + scripts) ----------
+outputs/*.sqlite
+outputs/public_safety_gis.sqlite
+
+# --- Raw downloaded source data (you supply this; often large) ---------------
+# Keep the folder, ignore its contents.
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- OS / editor -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

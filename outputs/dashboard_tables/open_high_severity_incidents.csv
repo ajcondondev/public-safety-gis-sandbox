@@ -1,0 +1,14 @@
+incident_id,incident_type,severity,town,status,latitude,longitude,reported_at
+INC00003,Power Outage,High,Candia,Open,43.102105,-71.300485,2026-06-17T00:56:00Z
+INC00019,Hazmat Spill,High,Goffstown,In Progress,43.016993,-71.596101,2026-06-10T09:41:00Z
+INC00021,Power Outage,High,Hooksett,Open,43.079378,-71.483152,2026-06-25T07:01:00Z
+INC00031,Hazmat Spill,Critical,Manchester,Open,42.994894,-71.468424,2026-06-14T17:31:00Z
+INC00035,Structure Fire,High,Goffstown,Open,43.051194,-71.609902,2026-06-16T00:41:00Z
+INC00040,Structure Fire,High,Manchester,Open,42.986432,-71.459097,2026-06-20T03:23:00Z
+INC00056,Hazmat Spill,Critical,Concord,Open,43.193979,-71.562729,2026-06-04T06:15:00Z
+INC00078,Downed Tree,Critical,Manchester,Open,43.017943,-71.482646,2026-06-21T22:04:00Z
+INC00100,Hazmat Spill,High,Bow,Open,43.156383,-71.56002,2026-06-18T06:49:00Z
+INC00103,Severe Weather,High,Manchester,Open,42.996394,-71.478257,2026-06-16T14:32:00Z
+INC00110,Motor Vehicle Crash,Critical,Concord,In Progress,43.202749,-71.515184,2026-06-18T10:48:00Z
+INC00113,Structure Fire,Critical,Manchester,In Progress,43.00214,-71.44533,2026-06-27T19:44:00Z
+INC00115,Hazmat Spill,High,Concord,In Progress,43.200672,-71.540381,2026-06-01T02:10:00Z

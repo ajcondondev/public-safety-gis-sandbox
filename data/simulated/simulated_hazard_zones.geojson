@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_id": "HZ001",
+        "hazard_type": "Floodplain (simulated)",
+        "severity": "High",
+        "town": "Concord",
+        "description": "Simulated Merrimack River floodplain band near Concord.",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.56,
+              43.18
+            ],
+            [
+              -71.52,
+              43.18
+            ],
+            [
+              -71.52,
+              43.235
+            ],
+            [
+              -71.56,
+              43.235
+            ],
+            [
+              -71.56,
+              43.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_id": "HZ002",
+        "hazard_type": "Floodplain (simulated)",
+        "severity": "Moderate",
+        "town": "Hooksett",
+        "description": "Simulated floodplain band near Hooksett village.",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.485,
+              43.08
+            ],
+            [
+              -71.445,
+              43.08
+            ],
+            [
+              -71.445,
+              43.12
+            ],
+            [
+              -71.485,
+              43.12
+            ],
+            [
+              -71.485,
+              43.08
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hazard_id": "HZ003",
+        "hazard_type": "Severe Weather Band (simulated)",
+        "severity": "High",
+        "town": "Manchester",
+        "description": "Simulated severe-thunderstorm impact band over Manchester.",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.49,
+              42.97
+            ],
+            [
+              -71.42,
+              42.97
+            ],
+            [
+              -71.42,
+              43.03
+            ],
+            [
+              -71.49,
+              43.03
+            ],
+            [
+              -71.49,
+              42.97
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

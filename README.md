@@ -1,0 +1,271 @@
+# Concord–Manchester Public Safety GIS Readiness Dashboard
+
+> **This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
+
+A self-contained, runnable demonstration of the work a **GIS Solutions Engineer** does in a public-safety / emergency-management setting: collect and clean geospatial data, model it, validate its quality, run spatial analysis, automate the whole pipeline, and produce map- and dashboard-ready outputs with stakeholder documentation.
+
+The scenario is a mock emergency-planning system for the **Concord → Manchester, New Hampshire** corridor (along I-93 / NH-3). It is modeled on the responsibilities of a *State of New Hampshire, Department of Safety — GIS Solutions Engineer (Program Specialist IV)* role supporting the Division of Emergency Services and Communications.
+
+---
+
+## Table of contents
+
+1. [What is a GIS Solutions Engineer?](#what-is-a-gis-solutions-engineer)
+2. [What this project demonstrates](#what-this-project-demonstrates)
+3. [The emergency-planning scenario](#the-emergency-planning-scenario)
+4. [Target users](#target-users)
+5. [Data workflow](#data-workflow)
+6. [Tools used](#tools-used)
+7. [Repository structure](#repository-structure)
+8. [Setup](#setup)
+9. [How to run the pipeline](#how-to-run-the-pipeline)
+10. [Outputs generated](#outputs-generated)
+11. [What would be done in ArcGIS Pro](#what-would-be-done-in-arcgis-pro)
+12. [What would be published to ArcGIS Online](#what-would-be-published-to-arcgis-online)
+13. [Troubleshooting](#troubleshooting)
+14. [Limitations & safety disclaimer](#limitations--safety-disclaimer)
+15. [Future improvements](#future-improvements)
+
+---
+
+## What is a GIS Solutions Engineer?
+
+A GIS Solutions Engineer in public safety builds and maintains the mapping and
+data systems that help emergency managers and public-safety officials understand
+**where things are, what is happening, and how to respond** — during everyday
+planning and during emergencies.
+
+The job is broader than "making maps." It combines:
+
+- **GIS data management** — keeping critical map layers accurate, reliable, and usable.
+- **Public-safety & emergency response** — supporting emergency management, statewide safety planning, drills, and Emergency Operations Center (EOC) activations.
+- **Automation** — Python / ArcPy / Arcade to remove repetitive data-prep and map-production work.
+- **Analysis & visualization** — turning layers into maps, dashboards, charts, and reports.
+- **Stakeholder coordination** — gathering requirements, documenting decisions, and explaining technical information to non-technical audiences.
+
+See [`docs/project_overview.md`](docs/project_overview.md) for how each project deliverable maps back to those responsibilities.
+
+## What this project demonstrates
+
+| Capability | Where it lives |
+|---|---|
+| Data preparation & cleaning (ETL) | `scripts/02_load_clean_data.py` |
+| Data quality / QA-QC validation | `scripts/03_validate_gis_data.py`, [`docs/qa_qc_plan.md`](docs/qa_qc_plan.md) |
+| Automation (repeatable pipeline) | `scripts/01`–`06`, `config/` |
+| Geospatial analysis (proximity, overlay, priority) | `scripts/04_generate_analysis_layers.py` |
+| SQL / database modeling | `sql/schema.sql`, `sql/qa_queries.sql`, `sql/summary_queries.sql` |
+| Dashboard readiness | `scripts/05_export_dashboard_tables.py`, [`docs/dashboard_design.md`](docs/dashboard_design.md) |
+| Working web map & dashboard (no GIS license) | `scripts/07_generate_maps.py`, `scripts/08_build_dashboard.py` → `outputs/maps/`, `outputs/dashboard/` |
+| Metadata & standards compliance | `scripts/09_generate_metadata.py` → `outputs/metadata/` |
+| Engineering rigor (automated tests) | `tests/test_pipeline.py`, `scripts/run_pipeline.py` |
+| Map production (manual, Esri) | [`docs/arcgis_workflow.md`](docs/arcgis_workflow.md) |
+| Field data collection | [`docs/survey123_design.md`](docs/survey123_design.md) |
+| Narrative / public information | [`docs/storymap_outline.md`](docs/storymap_outline.md) |
+| Stakeholder communication | [`docs/stakeholder_brief.md`](docs/stakeholder_brief.md), `scripts/06_generate_summary_report.py` |
+
+## The emergency-planning scenario
+
+An emergency manager for the Concord–Manchester corridor needs a quick,
+trustworthy picture of the region's emergency-response readiness:
+
+- Where are the **fire/EMS/police stations, EOCs, shelters, and hospitals**?
+- Which **shelters are open**, and what is their capacity?
+- Where are **incidents** happening, how severe are they, and which are still open?
+- Which facilities and incidents fall inside a **hazard zone** (simulated floodplain / severe-weather band)?
+- Where are the **coverage gaps** — high-priority incidents far from any facility?
+
+The pipeline answers these questions from simulated data and produces the maps,
+tables, and reports an emergency manager would use to plan and brief leadership.
+
+## Target users
+
+- **Emergency managers** — planning, resource positioning, situational awareness.
+- **GIS staff** — maintaining the data model and publishing layers.
+- **Public-safety officials** — fire/EMS/police leadership reviewing coverage.
+- **Agency leadership** — high-level readiness indicators.
+- **Non-technical stakeholders** — reading a briefing or StoryMap.
+
+## Data workflow
+
+```
+            ┌─────────────┐
+ data/raw/  │ (you supply │   real downloaded data (optional)
+            │  real data) │
+            └──────┬──────┘
+                   │  pick raw if present, else simulated
+ data/simulated/   ▼
+ (script 01) ─► 02 clean/standardize ─► data/processed/  +  outputs/geojson/
+                   │
+                   ├─► 03 validate ─────► outputs/reports/qa_qc_report.md
+                   │                       outputs/dashboard_tables/qa_results.csv
+                   │
+                   ├─► 04 analyze ──────► outputs/geojson/incidents_analyzed.geojson
+                   │   (proximity,         outputs/dashboard_tables/*proximity*.csv
+                   │    hazard, priority)  outputs/dashboard_tables/*hazard_exposure*.csv
+                   │
+                   ├─► 05 serve ────────► outputs/dashboard_tables/*.csv (aggregates)
+                   │   (tables + SQL)      outputs/public_safety_gis.sqlite
+                   │
+                   └─► 06 report ───────► outputs/reports/summary_report.md
+```
+
+## Tools used
+
+- **Python 3** — pipeline orchestration and analysis.
+- **pandas** + **PyYAML** — the *only* required third-party packages.
+- **Standard-library `json` / `sqlite3` / `math`** — GeoJSON writing, the database, and pure-Python haversine distance, so the demo runs with no heavy GIS stack.
+- **SQLite** — a zero-install stand-in for **SQL Server**.
+- *Optional:* **GeoPandas/Shapely** (auto-detected enhancement), **ArcGIS Pro**, **ArcGIS Online**, **Survey123**, **Dashboards**, **StoryMaps**, **PowerBI**, **ArcPy/Arcade** — all documented in `docs/` as manual workflows so the project is credible end-to-end even without an Esri license.
+
+## Repository structure
+
+```
+README.md
+Makefile        run.ps1  run.sh        one-command pipeline runners
+config/         config.example.yml      ← copy to config.yml to customize
+data/
+  raw/          (you add authoritative source data here)
+  simulated/    generated demo CSVs + hazard GeoJSON (script 01)
+  processed/    cleaned, standardized CSVs (script 02)
+scripts/        01–09 pipeline + common.py helpers + run_pipeline.py
+sql/            schema.sql, qa_queries.sql, summary_queries.sql
+tests/          test_pipeline.py (unittest: geometry + validation)
+notebooks/      exploratory_analysis.ipynb
+outputs/
+  geojson/      map-ready layers (points + hazard polygons)
+  dashboard_tables/  CSVs for PowerBI / ArcGIS Dashboards + qa_results
+  reports/      qa_qc_report.md, summary_report.md
+  maps/         interactive_map.html + static PNG maps
+  dashboard/    index.html (self-contained operational dashboard)
+  metadata/     per-layer metadata sheets + metadata.json
+docs/           project_overview, data_dictionary, data_sources, qa_qc_plan,
+                arcgis_workflow, arcade_examples, dashboard_design,
+                storymap_outline, survey123_design, stakeholder_brief
+```
+
+## Setup
+
+**Prerequisites:** Python 3.9+ (developed on 3.13). No GIS software required.
+
+```bash
+# 1. (optional) create a virtual environment
+python -m venv .venv
+# Windows:        .venv\Scripts\activate
+# macOS/Linux:    source .venv/bin/activate
+
+# 2. install the two required packages
+pip install -r requirements.txt
+
+# 3. (optional) customize settings
+cp config/config.example.yml config/config.yml   # then edit as desired
+```
+
+## How to run the pipeline
+
+**One command (recommended):**
+
+```bash
+python scripts/run_pipeline.py            # runs all stages 01-09
+python scripts/run_pipeline.py --tests    # run the test suite first, then the pipeline
+# Windows:  .\run.ps1   ·   macOS/Linux:  ./run.sh   ·   or:  make all
+```
+
+**Or run each stage in order** from the repository root:
+
+```bash
+python scripts/01_create_project_structure.py   # generate simulated data
+python scripts/02_load_clean_data.py            # clean + standardize -> GeoJSON
+python scripts/03_validate_gis_data.py          # QA/QC -> report + qa_results.csv
+python scripts/04_generate_analysis_layers.py   # proximity / hazard / priority
+python scripts/05_export_dashboard_tables.py    # aggregates + SQLite database
+python scripts/06_generate_summary_report.py    # plain-English summary report
+python scripts/07_generate_maps.py              # interactive + static maps
+python scripts/08_build_dashboard.py            # self-contained HTML dashboard
+python scripts/09_generate_metadata.py          # FGDC/ISO-style layer metadata
+```
+
+Each script prints a timestamped log and ends by naming the next step. The
+pipeline is **idempotent** — re-running regenerates identical results (fixed
+random seed in `config`).
+
+**Run the tests** (no extra packages required):
+
+```bash
+python -m unittest discover -s tests -v      # or: make test
+```
+
+To query the database directly (optional, requires the `sqlite3` CLI):
+
+```bash
+sqlite3 -header -column outputs/public_safety_gis.sqlite ".read sql/summary_queries.sql"
+sqlite3 -header -column outputs/public_safety_gis.sqlite ".read sql/qa_queries.sql"
+```
+
+## Outputs generated
+
+Running the pipeline on the bundled simulated data produces (numbers are
+deterministic):
+
+- **`outputs/geojson/`** — 6 layers: municipalities, emergency_facilities, shelters, hospitals, an enriched `incidents_analyzed`, and `simulated_hazard_zones` (polygons).
+- **`outputs/dashboard_tables/`** — incident/facility/shelter aggregates, a flagship `town_readiness_summary.csv`, `incident_facility_proximity.csv`, `facility_hazard_exposure.csv`, and `qa_results.csv`.
+- **`outputs/reports/qa_qc_report.md`** — finds **7 deliberately seeded data-quality issues** (missing coordinates, a duplicate ID, out-of-range coordinates, a blank required field).
+- **`outputs/reports/summary_report.md`** — headline indicators (120 simulated incidents, open high-severity list, coverage gaps, hazard-exposed assets).
+- **`outputs/public_safety_gis.sqlite`** — the relational database (8 tables).
+- **`outputs/maps/interactive_map.html`** — a self-contained **interactive Leaflet web map** (incidents by priority, facilities, shelters, hospitals, hazard zones) that opens in any browser with no server.
+- **`outputs/maps/regional_overview.png`** & **`incident_priority.png`** — static maps for screenshots / the StoryMap / a mapbook.
+- **`outputs/dashboard/index.html`** — a **working HTML operational dashboard** (KPI tiles, charts, act-now incident list, town readiness) built from the CSVs.
+- **`outputs/metadata/`** — **FGDC/ISO-style metadata** (one Markdown sheet per layer + a combined `metadata.json`) documenting lineage, CRS, extent, fields, and use constraints.
+
+> **Tip:** open `outputs/dashboard/index.html` and `outputs/maps/interactive_map.html` in a browser — these are the most portfolio-visible artifacts and need no GIS software.
+
+## What would be done in ArcGIS Pro
+
+With an ArcGIS Pro license you would take the generated GeoJSON into a project,
+project it to **NH State Plane (EPSG:3437)**, symbolize each layer, and build an
+emergency-response **mapbook** (regional overview, facilities & shelters, hazard
+exposure, incident priority, town readiness). Full click-by-click steps,
+symbology suggestions, and optional **ArcPy** automation are in
+[`docs/arcgis_workflow.md`](docs/arcgis_workflow.md).
+
+## What would be published to ArcGIS Online
+
+The cleaned GeoJSON layers would be published as **hosted feature layers**,
+combined into a **web map** with configured popups (with **Arcade** expressions),
+and surfaced in an **operational dashboard** (total incidents, open high-severity,
+shelters by status, facilities by type, incidents by town, hazard-exposed
+facilities). Field reports would flow in via **Survey123**. See
+[`docs/dashboard_design.md`](docs/dashboard_design.md) and
+[`docs/survey123_design.md`](docs/survey123_design.md).
+
+## Troubleshooting
+
+| Symptom | Fix |
+|---|---|
+| `ModuleNotFoundError: No module named 'pandas'` / `yaml` | `pip install -r requirements.txt` |
+| `can't open file '...05_...py'` | Run from the **repo root**, e.g. `python scripts/05_...py`, not from inside `scripts/`. |
+| `FileNotFoundError` for a processed CSV | Run the scripts **in order** starting at `01`. |
+| `UnicodeEncodeError` on Windows console | Already handled by `common.log()`; update if you add new prints — write files as UTF-8. |
+| GeoPandas/Shapely not installed | Not required. The pipeline auto-falls back to pure-Python geometry. Install them only for the optional enhancements. |
+| Want different towns / thresholds | Edit `config/config.yml` (validation bounds, analysis distances, seed) and the `TOWNS` table in `scripts/01_...py`. |
+
+## Limitations & safety disclaimer
+
+> **This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
+
+- **All data is simulated.** Facility/shelter/hospital names and coordinates are illustrative, not authoritative. Incidents are randomly generated and flagged `simulated_flag = Y`.
+- No sensitive 911 data, private resident data, or operational emergency data is used.
+- Hazard zones are hand-drawn rectangles for illustration — **not** derived from any official FEMA/NWS hazard product.
+- Distances use a spherical-earth approximation; for operational use you would project to a local CRS and account for the road network, not straight-line distance.
+
+## Future improvements
+
+- Swap simulated inputs for **authoritative public data** (NH GRANIT, FEMA NFHL, HIFLD, OpenStreetMap) — see [`docs/data_sources.md`](docs/data_sources.md).
+- Replace straight-line proximity with **network (drive-time) analysis**.
+- Add **scheduled automation** (Windows Task Scheduler / cron) and email/Teams alerting on new high-severity incidents.
+- Publish the live layers to **ArcGIS Online** and embed a real dashboard + StoryMap.
+- Add **PowerBI** report files (`.pbix`) built on the dashboard CSVs.
+- Promote the SQLite staging model to a **SQL Server enterprise geodatabase** with enforced keys and a geometry column.
+
+---
+
+*Built as a learning/portfolio project. See `internal_reference/` (git-ignored) for the role research that informed the design.*

@@ -1,0 +1,8 @@
+dataset,check_id,severity,record_id,field,detail
+emergency_facilities.csv,CHK-01,ERROR,F0008,name,Required field is blank
+emergency_facilities.csv,CHK-03,ERROR,F0005,facility_id,Duplicate primary key value
+emergency_facilities.csv,CHK-03,ERROR,F0005,facility_id,Duplicate primary key value
+emergency_facilities.csv,CHK-02,ERROR,F0003,latitude/longitude,Missing coordinate
+incidents.csv,CHK-04,ERROR,INC00004,longitude,"Longitude 71.45 outside [-72.2, -71.0]"
+incidents.csv,CHK-04,ERROR,INC00009,latitude,"Latitude 99.9 outside [42.5, 43.6]"
+incidents.csv,CHK-02,ERROR,INC00013,latitude/longitude,Missing coordinate

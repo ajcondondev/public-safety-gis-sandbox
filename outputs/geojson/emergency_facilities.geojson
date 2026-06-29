@@ -1,0 +1,505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.548672,
+          43.199101
+        ]
+      },
+      "properties": {
+        "facility_id": "F0001",
+        "name": "Concord Fire Station",
+        "facility_type": "Fire Station",
+        "town": "Concord",
+        "address": "26 School St, Concord, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.556408,
+          43.204977
+        ]
+      },
+      "properties": {
+        "facility_id": "F0002",
+        "name": "Concord Public Works Garage",
+        "facility_type": "Public Works Garage",
+        "town": "Concord",
+        "address": "90 Manchester St, Concord, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.531623,
+          43.141171
+        ]
+      },
+      "properties": {
+        "facility_id": "F0004",
+        "name": "Bow Emergency Operations Center",
+        "facility_type": "Emergency Operations Center",
+        "town": "Bow",
+        "address": "226 River St, Bow, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.557781,
+          43.13121
+        ]
+      },
+      "properties": {
+        "facility_id": "F0005",
+        "name": "Bow Police Station",
+        "facility_type": "Police Station",
+        "town": "Bow",
+        "address": "715 River St, Bow, NH",
+        "operational_status": "Limited",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.465141,
+          43.138597
+        ]
+      },
+      "properties": {
+        "facility_id": "F0005",
+        "name": "Pembroke EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Pembroke",
+        "address": "105 Main St, Pembroke, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.458051,
+          43.152589
+        ]
+      },
+      "properties": {
+        "facility_id": "F0007",
+        "name": "Pembroke EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Pembroke",
+        "address": "827 Main St, Pembroke, NH",
+        "operational_status": "Out of Service",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.396054,
+          43.140427
+        ]
+      },
+      "properties": {
+        "facility_id": "F0008",
+        "name": null,
+        "facility_type": "Emergency Operations Center",
+        "town": "Allenstown",
+        "address": "81 Manchester St, Allenstown, NH",
+        "operational_status": "Limited",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.419367,
+          43.156883
+        ]
+      },
+      "properties": {
+        "facility_id": "F0009",
+        "name": "Allenstown EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Allenstown",
+        "address": "592 Pleasant St, Allenstown, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.469895,
+          43.110559
+        ]
+      },
+      "properties": {
+        "facility_id": "F0010",
+        "name": "Hooksett EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Manchester",
+        "address": "82 Pleasant St, Hooksett, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.458293,
+          43.090111
+        ]
+      },
+      "properties": {
+        "facility_id": "F0011",
+        "name": "Hooksett EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Hooksett",
+        "address": "167 Hall St, Hooksett, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455935,
+          43.082746
+        ]
+      },
+      "properties": {
+        "facility_id": "F0012",
+        "name": "Hooksett Fire Station",
+        "facility_type": "Fire Station",
+        "town": "Hooksett",
+        "address": "624 School St, Hooksett, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.623815,
+          43.108426
+        ]
+      },
+      "properties": {
+        "facility_id": "F0013",
+        "name": "Dunbarton Emergency Operations Center",
+        "facility_type": "Emergency Operations Center",
+        "town": "Dunbarton",
+        "address": "277 School St, Dunbarton, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.616553,
+          43.113102
+        ]
+      },
+      "properties": {
+        "facility_id": "F0014",
+        "name": "Dunbarton Fire Station",
+        "facility_type": "Fire Station",
+        "town": "Dunbarton",
+        "address": "235 Main St, Dunbarton, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.594682,
+          43.013787
+        ]
+      },
+      "properties": {
+        "facility_id": "F0015",
+        "name": "Goffstown Public Works Garage",
+        "facility_type": "Public Works Garage",
+        "town": "Goffstown",
+        "address": "898 School St, Goffstown, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5911,
+          43.006785
+        ]
+      },
+      "properties": {
+        "facility_id": "F0016",
+        "name": "Goffstown Emergency Operations Center",
+        "facility_type": "Emergency Operations Center",
+        "town": "Goffstown",
+        "address": "147 Hall St, Goffstown, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.612127,
+          43.017176
+        ]
+      },
+      "properties": {
+        "facility_id": "F0017",
+        "name": "Goffstown Public Works Garage",
+        "facility_type": "Public Works Garage",
+        "town": "Goffstown",
+        "address": "439 Manchester St, Goffstown, NH",
+        "operational_status": "Out of Service",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.440356,
+          43.005831
+        ]
+      },
+      "properties": {
+        "facility_id": "F0018",
+        "name": "Manchester Public Works Garage",
+        "facility_type": "Public Works Garage",
+        "town": "Manchester",
+        "address": "506 Main St, Manchester, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.472259,
+          42.992486
+        ]
+      },
+      "properties": {
+        "facility_id": "F0019",
+        "name": "Manchester Police Station",
+        "facility_type": "Police Station",
+        "town": "Manchester",
+        "address": "812 School St, Manchester, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.440369,
+          43.014443
+        ]
+      },
+      "properties": {
+        "facility_id": "F0020",
+        "name": "Manchester Emergency Operations Center",
+        "facility_type": "Emergency Operations Center",
+        "town": "Manchester",
+        "address": "542 Hall St, Manchester, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.444056,
+          43.005635
+        ]
+      },
+      "properties": {
+        "facility_id": "F0021",
+        "name": "Manchester Fire Station",
+        "facility_type": "Fire Station",
+        "town": "Manchester",
+        "address": "699 Manchester St, Manchester, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.436647,
+          42.993749
+        ]
+      },
+      "properties": {
+        "facility_id": "F0022",
+        "name": "Manchester EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Manchester",
+        "address": "446 Pleasant St, Manchester, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.348293,
+          43.015278
+        ]
+      },
+      "properties": {
+        "facility_id": "F0023",
+        "name": "Auburn EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Auburn",
+        "address": "996 Manchester St, Auburn, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.360644,
+          43.005107
+        ]
+      },
+      "properties": {
+        "facility_id": "F0024",
+        "name": "Auburn EMS Station",
+        "facility_type": "EMS Station",
+        "town": "Auburn",
+        "address": "862 School St, Auburn, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.272742,
+          43.09294
+        ]
+      },
+      "properties": {
+        "facility_id": "F0025",
+        "name": "Candia Police Station",
+        "facility_type": "Police Station",
+        "town": "Candia",
+        "address": "553 Manchester St, Candia, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.263433,
+          43.091349
+        ]
+      },
+      "properties": {
+        "facility_id": "F0026",
+        "name": "Candia Fire Station",
+        "facility_type": "Fire Station",
+        "town": "Candia",
+        "address": "952 Hall St, Candia, NH",
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    }
+  ]
+}

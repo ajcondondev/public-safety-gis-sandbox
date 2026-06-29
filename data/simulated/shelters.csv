@@ -1,0 +1,15 @@
+shelter_id,name,town,address,latitude,longitude,capacity,status,pet_friendly,generator_backup,data_source,last_updated
+S0001,Concord Middle School,Concord,"900 School St, Concord, NH",43.193184,-71.538104,50,Open,Y,Y,Simulated (portfolio demo),2026-06-29
+S0002,Concord Middle School,Concord,"272 Union St, Concord, NH",43.224817,-71.522159,150,Closed,Y,N,Simulated (portfolio demo),2026-06-29
+S0003,Bow Community Center,Bow,"449 Union St, Bow, NH",43.123956,-71.553911,150,Standby,Y,Y,Simulated (portfolio demo),2026-06-29
+S0004,Pembroke High School,Pembroke,"725 School St, Pembroke, NH",43.133642,-71.444905,50,Closed,Y,Y,Simulated (portfolio demo),2026-06-29
+S0005,Allenstown Recreation Center,Allenstown,"220 Church St, Allenstown, NH",43.156741,-71.387434,100,Closed,Y,N,Simulated (portfolio demo),2026-06-29
+S0006,Hooksett Middle School,Hooksett,"97 School St, Hooksett, NH",43.101623,-71.470345,150,Standby,Y,Y,Simulated (portfolio demo),2026-06-29
+S0007,Hooksett High School,Hooksett,"63 Union St, Hooksett, NH",43.104116,-71.454279,300,Open,Y,Y,Simulated (portfolio demo),2026-06-29
+S0008,Dunbarton Middle School,Dunbarton,"433 Church St, Dunbarton, NH",43.092928,-71.621607,150,Closed,N,N,Simulated (portfolio demo),2026-06-29
+S0009,Goffstown High School,Goffstown,"52 School St, Goffstown, NH",43.038084,-71.585551,200,Closed,Y,Y,Simulated (portfolio demo),2026-06-29
+S0010,Goffstown Middle School,Goffstown,"886 Union St, Goffstown, NH",43.035688,-71.612973,150,Open,N,Y,Simulated (portfolio demo),2026-06-29
+S0011,Manchester Community Center,Manchester,"434 Union St, Manchester, NH",42.983173,-71.462119,150,Closed,Y,N,Simulated (portfolio demo),2026-06-29
+S0012,Manchester High School,Manchester,"599 Union St, Manchester, NH",42.995703,-71.442102,50,Open,Y,N,Simulated (portfolio demo),2026-06-29
+S0013,Auburn High School,Auburn,"692 Church St, Auburn, NH",43.001336,-71.332703,50,Closed,Y,Y,Simulated (portfolio demo),2026-06-29
+S0014,Candia Community Center,Candia,"958 Center St, Candia, NH",43.065553,-71.268917,150,Standby,N,Y,Simulated (portfolio demo),2026-06-29

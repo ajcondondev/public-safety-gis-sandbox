@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5376,
+          43.2081
+        ]
+      },
+      "properties": {
+        "town_id": "T001",
+        "town_name": "Concord",
+        "county": "Merrimack",
+        "population": 43976,
+        "area_sqmi": 64.3,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.544,
+          43.1376
+        ]
+      },
+      "properties": {
+        "town_id": "T002",
+        "town_name": "Bow",
+        "county": "Merrimack",
+        "population": 7519,
+        "area_sqmi": 28.0,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4595,
+          43.1434
+        ]
+      },
+      "properties": {
+        "town_id": "T003",
+        "town_name": "Pembroke",
+        "county": "Merrimack",
+        "population": 7115,
+        "area_sqmi": 23.0,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4012,
+          43.1487
+        ]
+      },
+      "properties": {
+        "town_id": "T004",
+        "town_name": "Allenstown",
+        "county": "Merrimack",
+        "population": 4774,
+        "area_sqmi": 20.6,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4651,
+          43.0959
+        ]
+      },
+      "properties": {
+        "town_id": "T005",
+        "town_name": "Hooksett",
+        "county": "Merrimack",
+        "population": 14871,
+        "area_sqmi": 36.5,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6126,
+          43.1009
+        ]
+      },
+      "properties": {
+        "town_id": "T006",
+        "town_name": "Dunbarton",
+        "county": "Merrimack",
+        "population": 2758,
+        "area_sqmi": 31.3,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6009,
+          43.0212
+        ]
+      },
+      "properties": {
+        "town_id": "T007",
+        "town_name": "Goffstown",
+        "county": "Hillsborough",
+        "population": 18579,
+        "area_sqmi": 36.8,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4548,
+          42.9956
+        ]
+      },
+      "properties": {
+        "town_id": "T008",
+        "town_name": "Manchester",
+        "county": "Hillsborough",
+        "population": 115644,
+        "area_sqmi": 33.1,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3486,
+          43.0048
+        ]
+      },
+      "properties": {
+        "town_id": "T009",
+        "town_name": "Auburn",
+        "county": "Rockingham",
+        "population": 5891,
+        "area_sqmi": 26.2,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2767,
+          43.0762
+        ]
+      },
+      "properties": {
+        "town_id": "T010",
+        "town_name": "Candia",
+        "county": "Rockingham",
+        "population": 4019,
+        "area_sqmi": 30.9,
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5295,
+          43.2128
+        ]
+      },
+      "properties": {
+        "hospital_id": "H001",
+        "name": "Concord Area Medical Center",
+        "town": "Concord",
+        "address": "661 Hospital Dr, Concord, NH",
+        "trauma_level": "Level III",
+        "beds": 295,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.541,
+          43.2003
+        ]
+      },
+      "properties": {
+        "hospital_id": "H002",
+        "name": "Riverbend Acute Care",
+        "town": "Concord",
+        "address": "308 Hospital Dr, Concord, NH",
+        "trauma_level": "Level IV",
+        "beds": 60,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4665,
+          43.098
+        ]
+      },
+      "properties": {
+        "hospital_id": "H003",
+        "name": "Hooksett Regional Hospital",
+        "town": "Hooksett",
+        "address": "469 Hospital Dr, Hooksett, NH",
+        "trauma_level": "Level IV",
+        "beds": 40,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.463,
+          42.989
+        ]
+      },
+      "properties": {
+        "hospital_id": "H004",
+        "name": "Manchester General Hospital",
+        "town": "Manchester",
+        "address": "324 Hospital Dr, Manchester, NH",
+        "trauma_level": "Level II",
+        "beds": 330,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.45,
+          43.005
+        ]
+      },
+      "properties": {
+        "hospital_id": "H005",
+        "name": "Queen City Medical Center",
+        "town": "Manchester",
+        "address": "952 Hospital Dr, Manchester, NH",
+        "trauma_level": "Level III",
+        "beds": 210,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6,
+          43.022
+        ]
+      },
+      "properties": {
+        "hospital_id": "H006",
+        "name": "Goffstown Community Hospital",
+        "town": "Goffstown",
+        "address": "770 Hospital Dr, Goffstown, NH",
+        "trauma_level": "Level IV",
+        "beds": 35,
+        "operational_status": "Operational",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    }
+  ]
+}

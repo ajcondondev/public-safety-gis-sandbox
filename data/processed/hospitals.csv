@@ -1,0 +1,7 @@
+hospital_id,name,town,address,latitude,longitude,trauma_level,beds,operational_status,data_source,last_updated
+H001,Concord Area Medical Center,Concord,"661 Hospital Dr, Concord, NH",43.2128,-71.5295,Level III,295,Operational,Simulated (portfolio demo),2026-06-29
+H002,Riverbend Acute Care,Concord,"308 Hospital Dr, Concord, NH",43.2003,-71.541,Level IV,60,Operational,Simulated (portfolio demo),2026-06-29
+H003,Hooksett Regional Hospital,Hooksett,"469 Hospital Dr, Hooksett, NH",43.098,-71.4665,Level IV,40,Operational,Simulated (portfolio demo),2026-06-29
+H004,Manchester General Hospital,Manchester,"324 Hospital Dr, Manchester, NH",42.989,-71.463,Level II,330,Operational,Simulated (portfolio demo),2026-06-29
+H005,Queen City Medical Center,Manchester,"952 Hospital Dr, Manchester, NH",43.005,-71.45,Level III,210,Operational,Simulated (portfolio demo),2026-06-29
+H006,Goffstown Community Hospital,Goffstown,"770 Hospital Dr, Goffstown, NH",43.022,-71.6,Level IV,35,Operational,Simulated (portfolio demo),2026-06-29

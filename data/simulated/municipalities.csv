@@ -1,0 +1,11 @@
+town_id,town_name,county,population,area_sqmi,latitude,longitude,data_source,last_updated
+T001,Concord,Merrimack,43976,64.3,43.2081,-71.5376,Simulated (portfolio demo),2026-06-29
+T002,Bow,Merrimack,7519,28.0,43.1376,-71.544,Simulated (portfolio demo),2026-06-29
+T003,Pembroke,Merrimack,7115,23.0,43.1434,-71.4595,Simulated (portfolio demo),2026-06-29
+T004,Allenstown,Merrimack,4774,20.6,43.1487,-71.4012,Simulated (portfolio demo),2026-06-29
+T005,Hooksett,Merrimack,14871,36.5,43.0959,-71.4651,Simulated (portfolio demo),2026-06-29
+T006,Dunbarton,Merrimack,2758,31.3,43.1009,-71.6126,Simulated (portfolio demo),2026-06-29
+T007,Goffstown,Hillsborough,18579,36.8,43.0212,-71.6009,Simulated (portfolio demo),2026-06-29
+T008,Manchester,Hillsborough,115644,33.1,42.9956,-71.4548,Simulated (portfolio demo),2026-06-29
+T009,Auburn,Rockingham,5891,26.2,43.0048,-71.3486,Simulated (portfolio demo),2026-06-29
+T010,Candia,Rockingham,4019,30.9,43.0762,-71.2767,Simulated (portfolio demo),2026-06-29

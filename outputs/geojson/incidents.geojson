@@ -1,0 +1,2266 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.472011,
+          42.969996
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00001",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-20T18:16:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.592575,
+          43.080365
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00002",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Dunbarton",
+        "reported_at": "2026-06-08T11:45:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.300485,
+          43.102105
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00003",
+        "incident_type": "Power Outage",
+        "severity": "High",
+        "town": "Candia",
+        "reported_at": "2026-06-17T00:56:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.45,
+          43.195005
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00004",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-18T04:21:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.459385,
+          42.971138
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00005",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-16T08:17:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.469439,
+          43.099001
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00006",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Hooksett",
+        "reported_at": "2026-06-09T05:00:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.449849,
+          43.015676
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00007",
+        "incident_type": "Structure Fire",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-05T17:09:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.552628,
+          43.190705
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00008",
+        "incident_type": "Severe Weather",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-26T01:06:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.470596,
+          99.9
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00009",
+        "incident_type": "Flooding",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-20T23:10:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.460097,
+          43.012543
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00010",
+        "incident_type": "Severe Weather",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-01T05:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.482477,
+          42.988553
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00011",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-26T22:30:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.473212,
+          42.96702
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00012",
+        "incident_type": "Hazmat Spill",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-10T07:21:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.531806,
+          43.180395
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00014",
+        "incident_type": "Power Outage",
+        "severity": "Critical",
+        "town": "Concord",
+        "reported_at": "2026-06-06T18:22:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.483695,
+          43.11987
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00015",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Hooksett",
+        "reported_at": "2026-06-17T03:02:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.563402,
+          43.199953
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00016",
+        "incident_type": "Hazmat Spill",
+        "severity": "Critical",
+        "town": "Concord",
+        "reported_at": "2026-06-18T21:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.444786,
+          42.996027
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00017",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-04T23:20:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.440932,
+          43.106539
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00018",
+        "incident_type": "Medical Emergency",
+        "severity": "Low",
+        "town": "Hooksett",
+        "reported_at": "2026-06-14T21:39:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.596101,
+          43.016993
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00019",
+        "incident_type": "Hazmat Spill",
+        "severity": "High",
+        "town": "Goffstown",
+        "reported_at": "2026-06-10T09:41:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.613873,
+          43.030731
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00020",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Goffstown",
+        "reported_at": "2026-06-17T15:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.483152,
+          43.079378
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00021",
+        "incident_type": "Power Outage",
+        "severity": "High",
+        "town": "Hooksett",
+        "reported_at": "2026-06-25T07:01:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.268914,
+          43.071066
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00022",
+        "incident_type": "Downed Tree",
+        "severity": "Moderate",
+        "town": "Candia",
+        "reported_at": "2026-06-25T02:12:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.579274,
+          43.04476
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00023",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Goffstown",
+        "reported_at": "2026-06-05T20:56:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.615948,
+          42.994213
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00024",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Goffstown",
+        "reported_at": "2026-06-23T16:54:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.514114,
+          43.235102
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00025",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-17T17:39:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.45632,
+          43.010219
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00026",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-18T14:16:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.468324,
+          43.003205
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00027",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-25T16:04:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.466518,
+          43.12245
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00028",
+        "incident_type": "Flooding",
+        "severity": "Low",
+        "town": "Pembroke",
+        "reported_at": "2026-06-18T02:09:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.517627,
+          43.181836
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00029",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-18T14:24:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.428236,
+          42.994219
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00030",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-25T18:19:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.468424,
+          42.994894
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00031",
+        "incident_type": "Hazmat Spill",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-14T17:31:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.439928,
+          43.11633
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00032",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Hooksett",
+        "reported_at": "2026-06-13T23:39:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.476658,
+          43.004165
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00033",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T00:29:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.466752,
+          43.159074
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00034",
+        "incident_type": "Severe Weather",
+        "severity": "Low",
+        "town": "Pembroke",
+        "reported_at": "2026-06-15T10:48:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.609902,
+          43.051194
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00035",
+        "incident_type": "Structure Fire",
+        "severity": "High",
+        "town": "Goffstown",
+        "reported_at": "2026-06-16T00:41:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.34132,
+          43.025154
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00036",
+        "incident_type": "Hazmat Spill",
+        "severity": "Low",
+        "town": "Auburn",
+        "reported_at": "2026-06-01T07:15:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.474733,
+          43.011614
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00037",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-07T14:38:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.429067,
+          43.000321
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00038",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-06T09:36:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.328766,
+          43.010326
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00039",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Low",
+        "town": "Auburn",
+        "reported_at": "2026-06-23T06:15:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.459097,
+          42.986432
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00040",
+        "incident_type": "Structure Fire",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-20T03:23:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.463069,
+          42.991611
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00041",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-14T15:57:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.429623,
+          43.002555
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00042",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-24T16:49:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6257,
+          43.041044
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00043",
+        "incident_type": "Hazmat Spill",
+        "severity": "High",
+        "town": "Goffstown",
+        "reported_at": "2026-06-09T10:56:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.433743,
+          42.967322
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00044",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T12:11:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.611602,
+          43.104247
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00045",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Dunbarton",
+        "reported_at": "2026-06-09T19:12:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455351,
+          43.004354
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00046",
+        "incident_type": "Downed Tree",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-25T07:50:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.463245,
+          43.094296
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00047",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Hooksett",
+        "reported_at": "2026-06-08T09:27:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.477561,
+          42.980684
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00048",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-15T08:12:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455748,
+          42.978583
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00049",
+        "incident_type": "Hazmat Spill",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-23T05:46:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.474034,
+          42.979249
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00050",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-04T06:00:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.560023,
+          43.219945
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00051",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-02T17:55:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.556538,
+          43.204528
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00052",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-10T15:03:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.447033,
+          42.970045
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00053",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-03T12:03:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.45983,
+          42.999084
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00054",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-03T07:38:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.514598,
+          43.15921
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00055",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Bow",
+        "reported_at": "2026-06-15T14:19:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.562729,
+          43.193979
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00056",
+        "incident_type": "Hazmat Spill",
+        "severity": "Critical",
+        "town": "Concord",
+        "reported_at": "2026-06-04T06:15:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.553711,
+          43.195576
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00057",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-15T22:45:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.452126,
+          42.991108
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00058",
+        "incident_type": "Hazmat Spill",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-08T08:41:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.381746,
+          43.154403
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00059",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Allenstown",
+        "reported_at": "2026-06-02T05:58:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.537972,
+          43.208128
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00060",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-23T12:05:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.427085,
+          42.97108
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00061",
+        "incident_type": "Structure Fire",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-20T08:53:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.439013,
+          43.000175
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00062",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-25T21:11:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.455296,
+          43.003687
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00063",
+        "incident_type": "Medical Emergency",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-06T18:05:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.601172,
+          43.015899
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00064",
+        "incident_type": "Severe Weather",
+        "severity": "Low",
+        "town": "Goffstown",
+        "reported_at": "2026-06-04T05:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.477845,
+          42.980744
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00065",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-15T02:49:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.473545,
+          42.990395
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00066",
+        "incident_type": "Downed Tree",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T17:23:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.42914,
+          42.998553
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00067",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-02T06:28:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.466155,
+          43.008187
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00068",
+        "incident_type": "Hazmat Spill",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-21T19:00:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.558362,
+          43.216963
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00069",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Critical",
+        "town": "Concord",
+        "reported_at": "2026-06-04T14:59:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.451724,
+          42.980224
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00070",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-27T15:24:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.433535,
+          43.011961
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00071",
+        "incident_type": "Power Outage",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-05T02:21:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.450005,
+          43.015849
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00072",
+        "incident_type": "Power Outage",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-10T23:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.548293,
+          43.205421
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00073",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-12T10:12:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.461121,
+          43.132491
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00074",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Pembroke",
+        "reported_at": "2026-06-25T13:58:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.628679,
+          43.02092
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00075",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Goffstown",
+        "reported_at": "2026-06-27T20:32:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.486451,
+          43.066821
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00076",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Hooksett",
+        "reported_at": "2026-06-15T03:55:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.516494,
+          43.21709
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00077",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-09T10:54:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.482646,
+          43.017943
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00078",
+        "incident_type": "Downed Tree",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-21T22:04:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.478893,
+          42.991638
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00079",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-08T23:40:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.564233,
+          43.197562
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00080",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-10T00:22:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.562862,
+          43.188299
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00081",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-19T21:55:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.469561,
+          42.993269
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00082",
+        "incident_type": "Hazmat Spill",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-19T04:16:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.428086,
+          42.970032
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00083",
+        "incident_type": "Flooding",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-10T21:37:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3274,
+          43.034762
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00084",
+        "incident_type": "Hazmat Spill",
+        "severity": "Moderate",
+        "town": "Auburn",
+        "reported_at": "2026-06-15T09:06:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.445306,
+          43.024277
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00085",
+        "incident_type": "Structure Fire",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-23T09:17:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.430624,
+          43.01557
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00086",
+        "incident_type": "Downed Tree",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-02T19:49:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.441544,
+          43.006266
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00087",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-21T06:42:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.541151,
+          43.196636
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00088",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Concord",
+        "reported_at": "2026-06-21T20:37:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.55967,
+          43.188638
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00089",
+        "incident_type": "Medical Emergency",
+        "severity": "High",
+        "town": "Concord",
+        "reported_at": "2026-06-11T23:34:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.574249,
+          43.046043
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00090",
+        "incident_type": "Power Outage",
+        "severity": "Moderate",
+        "town": "Goffstown",
+        "reported_at": "2026-06-09T05:51:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.471263,
+          43.010849
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00091",
+        "incident_type": "Flooding",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-15T02:43:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.354926,
+          42.980218
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00092",
+        "incident_type": "Severe Weather",
+        "severity": "Critical",
+        "town": "Auburn",
+        "reported_at": "2026-06-26T17:16:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.428382,
+          43.014945
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00093",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T08:06:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.446676,
+          43.004459
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00094",
+        "incident_type": "Hazmat Spill",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-18T10:29:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.465543,
+          43.084162
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00095",
+        "incident_type": "Structure Fire",
+        "severity": "Moderate",
+        "town": "Hooksett",
+        "reported_at": "2026-06-05T01:06:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.441204,
+          43.00084
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00096",
+        "incident_type": "Medical Emergency",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-12T21:56:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.554564,
+          43.219517
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00097",
+        "incident_type": "Structure Fire",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-14T08:28:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.468247,
+          42.969233
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00098",
+        "incident_type": "Severe Weather",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T11:07:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.464789,
+          42.968635
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00099",
+        "incident_type": "Structure Fire",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-07T20:08:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.56002,
+          43.156383
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00100",
+        "incident_type": "Hazmat Spill",
+        "severity": "High",
+        "town": "Bow",
+        "reported_at": "2026-06-18T06:49:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.478204,
+          43.013511
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00101",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-05T04:55:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.551678,
+          43.179047
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00102",
+        "incident_type": "Severe Weather",
+        "severity": "High",
+        "town": "Concord",
+        "reported_at": "2026-06-08T18:08:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.478257,
+          42.996394
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00103",
+        "incident_type": "Severe Weather",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-16T14:32:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.426958,
+          42.993083
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00104",
+        "incident_type": "Power Outage",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T16:03:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.479953,
+          42.970009
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00105",
+        "incident_type": "Downed Tree",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-04T15:38:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.531756,
+          43.200954
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00106",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-19T17:18:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.431515,
+          42.991404
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00107",
+        "incident_type": "Hazmat Spill",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-23T03:26:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.469507,
+          42.984351
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00108",
+        "incident_type": "Medical Emergency",
+        "severity": "Moderate",
+        "town": "Manchester",
+        "reported_at": "2026-06-04T10:09:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.440472,
+          42.971394
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00109",
+        "incident_type": "Medical Emergency",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-03T02:51:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.515184,
+          43.202749
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00110",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "Critical",
+        "town": "Concord",
+        "reported_at": "2026-06-18T10:48:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.450125,
+          42.986699
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00111",
+        "incident_type": "Power Outage",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-10T19:13:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.468086,
+          42.972493
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00112",
+        "incident_type": "Severe Weather",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-12T17:14:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.44533,
+          43.00214
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00113",
+        "incident_type": "Structure Fire",
+        "severity": "Critical",
+        "town": "Manchester",
+        "reported_at": "2026-06-27T19:44:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.515408,
+          43.178466
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00114",
+        "incident_type": "Severe Weather",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-10T10:36:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.540381,
+          43.200672
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00115",
+        "incident_type": "Hazmat Spill",
+        "severity": "High",
+        "town": "Concord",
+        "reported_at": "2026-06-01T02:10:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.475465,
+          43.018601
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00116",
+        "incident_type": "Motor Vehicle Crash",
+        "severity": "High",
+        "town": "Manchester",
+        "reported_at": "2026-06-19T19:48:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.459949,
+          43.002025
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00117",
+        "incident_type": "Downed Tree",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-22T13:13:00Z",
+        "status": "Closed",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.549095,
+          43.209716
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00118",
+        "incident_type": "Downed Tree",
+        "severity": "Moderate",
+        "town": "Concord",
+        "reported_at": "2026-06-10T21:14:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.467433,
+          43.01145
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00119",
+        "incident_type": "Flooding",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-10T06:07:00Z",
+        "status": "Open",
+        "simulated_flag": "Y"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.434799,
+          42.995616
+        ]
+      },
+      "properties": {
+        "incident_id": "INC00120",
+        "incident_type": "Hazmat Spill",
+        "severity": "Low",
+        "town": "Manchester",
+        "reported_at": "2026-06-13T17:51:00Z",
+        "status": "In Progress",
+        "simulated_flag": "Y"
+      }
+    }
+  ]
+}

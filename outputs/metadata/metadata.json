@@ -1,0 +1,300 @@
+{
+  "metadata_standard": "FGDC-CSDGM / ISO 19115 (simplified, portfolio demo)",
+  "generated": "2026-06-29T19:59:32Z",
+  "spatial_reference": "EPSG:4326",
+  "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+  "layers": {
+    "municipalities": {
+      "title": "Corridor Municipalities (Towns)",
+      "abstract": "Reference boundaries/centroids for the ten municipalities in the Concord\u2013Manchester corridor.",
+      "purpose": "Spatial backbone used to aggregate incidents, facilities, and shelters by town.",
+      "theme_keywords": [
+        "boundaries",
+        "administrative units"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.6126,
+        42.9956,
+        -71.2767,
+        43.2081
+      ],
+      "feature_count": 10,
+      "geometry_type": "Point",
+      "attributes": [
+        "town_id",
+        "town_name",
+        "county",
+        "population",
+        "area_sqmi",
+        "data_source",
+        "last_updated"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "No analytical transformation beyond cleaning."
+      ],
+      "data_quality": "0 error(s), 0 warning(s) on the source (municipalities.csv) at last validation.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    },
+    "emergency_facilities": {
+      "title": "Emergency Response Facilities",
+      "abstract": "Fire, police, EMS, emergency operations center, and public-works facilities (simulated).",
+      "purpose": "Locate response assets and compute incident-to-facility proximity and coverage.",
+      "theme_keywords": [
+        "structure",
+        "emergency response",
+        "critical infrastructure"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.62381,
+        42.99249,
+        -71.26343,
+        43.20498
+      ],
+      "feature_count": 25,
+      "geometry_type": "Point",
+      "attributes": [
+        "facility_id",
+        "name",
+        "facility_type",
+        "town",
+        "address",
+        "operational_status",
+        "data_source",
+        "last_updated"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "No analytical transformation beyond cleaning."
+      ],
+      "data_quality": "4 error(s), 0 warning(s) on the source (emergency_facilities.csv) at last validation.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    },
+    "shelters": {
+      "title": "Emergency Shelters",
+      "abstract": "Emergency shelters with status, capacity, pet-friendliness, and backup power (simulated).",
+      "purpose": "Track shelter availability and capacity for mass-care planning.",
+      "theme_keywords": [
+        "structure",
+        "emergency management"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.62161,
+        42.98317,
+        -71.26892,
+        43.22482
+      ],
+      "feature_count": 14,
+      "geometry_type": "Point",
+      "attributes": [
+        "shelter_id",
+        "name",
+        "town",
+        "address",
+        "capacity",
+        "status",
+        "pet_friendly",
+        "generator_backup",
+        "data_source",
+        "last_updated"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "No analytical transformation beyond cleaning."
+      ],
+      "data_quality": "0 error(s), 0 warning(s) on the source (shelters.csv) at last validation.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    },
+    "hospitals": {
+      "title": "Hospitals / Acute-Care Sites",
+      "abstract": "Hospitals with trauma level and bed counts (simulated; names echo public facilities).",
+      "purpose": "Locate definitive medical care for response planning.",
+      "theme_keywords": [
+        "structure",
+        "health"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.6,
+        42.989,
+        -71.45,
+        43.2128
+      ],
+      "feature_count": 6,
+      "geometry_type": "Point",
+      "attributes": [
+        "hospital_id",
+        "name",
+        "town",
+        "address",
+        "trauma_level",
+        "beds",
+        "operational_status",
+        "data_source",
+        "last_updated"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "No analytical transformation beyond cleaning."
+      ],
+      "data_quality": "0 error(s), 0 warning(s) on the source (hospitals.csv) at last validation.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    },
+    "incidents_analyzed": {
+      "title": "Analyzed Incidents (priority + proximity + hazard)",
+      "abstract": "Simulated incident feed enriched with nearest-facility distance, hazard exposure, and a priority score/category.",
+      "purpose": "Situational awareness and resource prioritization.",
+      "theme_keywords": [
+        "emergency response",
+        "events"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.62868,
+        42.96702,
+        -71.26891,
+        43.2351
+      ],
+      "feature_count": 117,
+      "geometry_type": "Point",
+      "attributes": [
+        "incident_id",
+        "incident_type",
+        "severity",
+        "town",
+        "reported_at",
+        "status",
+        "simulated_flag",
+        "nearest_facility_id",
+        "nearest_facility_name",
+        "nearest_facility_type",
+        "nearest_facility_miles",
+        "proximity_ring",
+        "hazard_zone_id",
+        "hazard_exposed",
+        "priority_score",
+        "priority_category"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "Analysis (proximity/hazard/priority): scripts/04_generate_analysis_layers.py"
+      ],
+      "data_quality": "3 error(s), 0 warning(s) on the source (incidents.csv) at last validation.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    },
+    "simulated_hazard_zones": {
+      "title": "Simulated Hazard Zones",
+      "abstract": "Illustrative floodplain and severe-weather polygons (simulated; NOT from FEMA/NWS).",
+      "purpose": "Demonstrate hazard-exposure overlay analysis.",
+      "theme_keywords": [
+        "environment",
+        "hazards"
+      ],
+      "place_keywords": [
+        "New Hampshire",
+        "Concord",
+        "Manchester",
+        "Merrimack County",
+        "Hillsborough County",
+        "Rockingham County"
+      ],
+      "spatial_reference": "EPSG:4326",
+      "bounding_box": [
+        -71.56,
+        42.97,
+        -71.42,
+        43.235
+      ],
+      "feature_count": 3,
+      "geometry_type": "Polygon",
+      "attributes": [
+        "hazard_id",
+        "hazard_type",
+        "severity",
+        "town",
+        "description",
+        "data_source",
+        "last_updated"
+      ],
+      "lineage": [
+        "Source: data/raw (authoritative) or data/simulated (demo) \u2014 see data_sources.md",
+        "Standardized & cleaned: scripts/02_load_clean_data.py",
+        "Validated (QA/QC): scripts/03_validate_gis_data.py",
+        "No analytical transformation beyond cleaning."
+      ],
+      "data_quality": "Derived/illustrative layer; not independently validated.",
+      "distribution_format": "GeoJSON (EPSG:4326)",
+      "update_frequency": "On pipeline run (manual / scheduled).",
+      "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
+      "contact": "Portfolio author (demonstration project)."
+    }
+  }
+}

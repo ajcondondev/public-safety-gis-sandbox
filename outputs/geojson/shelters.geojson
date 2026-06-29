@@ -1,0 +1,313 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.538104,
+          43.193184
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0001",
+        "name": "Concord Middle School",
+        "town": "Concord",
+        "address": "900 School St, Concord, NH",
+        "capacity": 50,
+        "status": "Open",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.522159,
+          43.224817
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0002",
+        "name": "Concord Middle School",
+        "town": "Concord",
+        "address": "272 Union St, Concord, NH",
+        "capacity": 150,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "N",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.553911,
+          43.123956
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0003",
+        "name": "Bow Community Center",
+        "town": "Bow",
+        "address": "449 Union St, Bow, NH",
+        "capacity": 150,
+        "status": "Standby",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.444905,
+          43.133642
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0004",
+        "name": "Pembroke High School",
+        "town": "Pembroke",
+        "address": "725 School St, Pembroke, NH",
+        "capacity": 50,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.387434,
+          43.156741
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0005",
+        "name": "Allenstown Recreation Center",
+        "town": "Allenstown",
+        "address": "220 Church St, Allenstown, NH",
+        "capacity": 100,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "N",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.470345,
+          43.101623
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0006",
+        "name": "Hooksett Middle School",
+        "town": "Hooksett",
+        "address": "97 School St, Hooksett, NH",
+        "capacity": 150,
+        "status": "Standby",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.454279,
+          43.104116
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0007",
+        "name": "Hooksett High School",
+        "town": "Hooksett",
+        "address": "63 Union St, Hooksett, NH",
+        "capacity": 300,
+        "status": "Open",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.621607,
+          43.092928
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0008",
+        "name": "Dunbarton Middle School",
+        "town": "Dunbarton",
+        "address": "433 Church St, Dunbarton, NH",
+        "capacity": 150,
+        "status": "Closed",
+        "pet_friendly": "N",
+        "generator_backup": "N",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.585551,
+          43.038084
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0009",
+        "name": "Goffstown High School",
+        "town": "Goffstown",
+        "address": "52 School St, Goffstown, NH",
+        "capacity": 200,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.612973,
+          43.035688
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0010",
+        "name": "Goffstown Middle School",
+        "town": "Goffstown",
+        "address": "886 Union St, Goffstown, NH",
+        "capacity": 150,
+        "status": "Open",
+        "pet_friendly": "N",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.462119,
+          42.983173
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0011",
+        "name": "Manchester Community Center",
+        "town": "Manchester",
+        "address": "434 Union St, Manchester, NH",
+        "capacity": 150,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "N",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.442102,
+          42.995703
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0012",
+        "name": "Manchester High School",
+        "town": "Manchester",
+        "address": "599 Union St, Manchester, NH",
+        "capacity": 50,
+        "status": "Open",
+        "pet_friendly": "Y",
+        "generator_backup": "N",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.332703,
+          43.001336
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0013",
+        "name": "Auburn High School",
+        "town": "Auburn",
+        "address": "692 Church St, Auburn, NH",
+        "capacity": 50,
+        "status": "Closed",
+        "pet_friendly": "Y",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.268917,
+          43.065553
+        ]
+      },
+      "properties": {
+        "shelter_id": "S0014",
+        "name": "Candia Community Center",
+        "town": "Candia",
+        "address": "958 Center St, Candia, NH",
+        "capacity": 150,
+        "status": "Standby",
+        "pet_friendly": "N",
+        "generator_backup": "Y",
+        "data_source": "Simulated (portfolio demo)",
+        "last_updated": "2026-06-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+facility_id,name,facility_type,town,address,latitude,longitude,operational_status,data_source,last_updated
+F0001,Concord Fire Station,Fire Station,Concord,"26 School St, Concord, NH",43.199101,-71.548672,Operational,Simulated (portfolio demo),2026-06-29
+F0002,Concord Public Works Garage,Public Works Garage,Concord,"90 Manchester St, Concord, NH",43.204977,-71.556408,Operational,Simulated (portfolio demo),2026-06-29
+F0003,Concord Public Works Garage,Public Works Garage,Concord,"617 Main St, Concord, NH",,,Operational,Simulated (portfolio demo),2026-06-29
+F0004,Bow Emergency Operations Center,Emergency Operations Center,Bow,"226 River St, Bow, NH",43.141171,-71.531623,Operational,Simulated (portfolio demo),2026-06-29
+F0005,Bow Police Station,Police Station,Bow,"715 River St, Bow, NH",43.13121,-71.557781,Limited,Simulated (portfolio demo),2026-06-29
+F0005,Pembroke EMS Station,EMS Station,Pembroke,"105 Main St, Pembroke, NH",43.138597,-71.465141,Operational,Simulated (portfolio demo),2026-06-29
+F0007,Pembroke EMS Station,EMS Station,Pembroke,"827 Main St, Pembroke, NH",43.152589,-71.458051,Out of Service,Simulated (portfolio demo),2026-06-29
+F0008,,Emergency Operations Center,Allenstown,"81 Manchester St, Allenstown, NH",43.140427,-71.396054,Limited,Simulated (portfolio demo),2026-06-29
+F0009,Allenstown EMS Station,EMS Station,Allenstown,"592 Pleasant St, Allenstown, NH",43.156883,-71.419367,Operational,Simulated (portfolio demo),2026-06-29
+F0010,Hooksett EMS Station,EMS Station,  manchester ,"82 Pleasant St, Hooksett, NH",43.110559,-71.469895,Operational,Simulated (portfolio demo),2026-06-29
+F0011,Hooksett EMS Station,EMS Station,Hooksett,"167 Hall St, Hooksett, NH",43.090111,-71.458293,Operational,Simulated (portfolio demo),2026-06-29
+F0012,Hooksett Fire Station,Fire Station,Hooksett,"624 School St, Hooksett, NH",43.082746,-71.455935,Operational,Simulated (portfolio demo),2026-06-29
+F0013,Dunbarton Emergency Operations Center,Emergency Operations Center,Dunbarton,"277 School St, Dunbarton, NH",43.108426,-71.623815,Operational,Simulated (portfolio demo),2026-06-29
+F0014,Dunbarton Fire Station,Fire Station,Dunbarton,"235 Main St, Dunbarton, NH",43.113102,-71.616553,Operational,Simulated (portfolio demo),2026-06-29
+F0015,Goffstown Public Works Garage,Public Works Garage,Goffstown,"898 School St, Goffstown, NH",43.013787,-71.594682,Operational,Simulated (portfolio demo),2026-06-29
+F0016,Goffstown Emergency Operations Center,Emergency Operations Center,Goffstown,"147 Hall St, Goffstown, NH",43.006785,-71.5911,Operational,Simulated (portfolio demo),2026-06-29
+F0017,Goffstown Public Works Garage,Public Works Garage,Goffstown,"439 Manchester St, Goffstown, NH",43.017176,-71.612127,Out of Service,Simulated (portfolio demo),2026-06-29
+F0018,Manchester Public Works Garage,Public Works Garage,Manchester,"506 Main St, Manchester, NH",43.005831,-71.440356,Operational,Simulated (portfolio demo),2026-06-29
+F0019,Manchester Police Station,Police Station,Manchester,"812 School St, Manchester, NH",42.992486,-71.472259,Operational,Simulated (portfolio demo),2026-06-29
+F0020,Manchester Emergency Operations Center,Emergency Operations Center,Manchester,"542 Hall St, Manchester, NH",43.014443,-71.440369,Operational,Simulated (portfolio demo),2026-06-29
+F0021,Manchester Fire Station,Fire Station,Manchester,"699 Manchester St, Manchester, NH",43.005635,-71.444056,Operational,Simulated (portfolio demo),2026-06-29
+F0022,Manchester EMS Station,EMS Station,Manchester,"446 Pleasant St, Manchester, NH",42.993749,-71.436647,Operational,Simulated (portfolio demo),2026-06-29
+F0023,Auburn EMS Station,EMS Station,Auburn,"996 Manchester St, Auburn, NH",43.015278,-71.348293,Operational,Simulated (portfolio demo),2026-06-29
+F0024,Auburn EMS Station,EMS Station,Auburn,"862 School St, Auburn, NH",43.005107,-71.360644,Operational,Simulated (portfolio demo),2026-06-29
+F0025,Candia Police Station,Police Station,Candia,"553 Manchester St, Candia, NH",43.09294,-71.272742,Operational,Simulated (portfolio demo),2026-06-29
+F0026,Candia Fire Station,Fire Station,Candia,"952 Hall St, Candia, NH",43.091349,-71.263433,Operational,Simulated (portfolio demo),2026-06-29

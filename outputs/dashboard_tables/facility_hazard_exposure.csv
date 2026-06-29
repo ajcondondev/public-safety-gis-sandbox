@@ -1,0 +1,46 @@
+asset_id,asset_name,asset_class,town,hazard_zone_id,hazard_exposed
+F0001,Concord Fire Station,Emergency Facility,Concord,HZ001,Y
+F0002,Concord Public Works Garage,Emergency Facility,Concord,HZ001,Y
+F0004,Bow Emergency Operations Center,Emergency Facility,Bow,,N
+F0005,Bow Police Station,Emergency Facility,Bow,,N
+F0005,Pembroke EMS Station,Emergency Facility,Pembroke,,N
+F0007,Pembroke EMS Station,Emergency Facility,Pembroke,,N
+F0008,nan,Emergency Facility,Allenstown,,N
+F0009,Allenstown EMS Station,Emergency Facility,Allenstown,,N
+F0010,Hooksett EMS Station,Emergency Facility,Manchester,HZ002,Y
+F0011,Hooksett EMS Station,Emergency Facility,Hooksett,HZ002,Y
+F0012,Hooksett Fire Station,Emergency Facility,Hooksett,HZ002,Y
+F0013,Dunbarton Emergency Operations Center,Emergency Facility,Dunbarton,,N
+F0014,Dunbarton Fire Station,Emergency Facility,Dunbarton,,N
+F0015,Goffstown Public Works Garage,Emergency Facility,Goffstown,,N
+F0016,Goffstown Emergency Operations Center,Emergency Facility,Goffstown,,N
+F0017,Goffstown Public Works Garage,Emergency Facility,Goffstown,,N
+F0018,Manchester Public Works Garage,Emergency Facility,Manchester,HZ003,Y
+F0019,Manchester Police Station,Emergency Facility,Manchester,HZ003,Y
+F0020,Manchester Emergency Operations Center,Emergency Facility,Manchester,HZ003,Y
+F0021,Manchester Fire Station,Emergency Facility,Manchester,HZ003,Y
+F0022,Manchester EMS Station,Emergency Facility,Manchester,HZ003,Y
+F0023,Auburn EMS Station,Emergency Facility,Auburn,,N
+F0024,Auburn EMS Station,Emergency Facility,Auburn,,N
+F0025,Candia Police Station,Emergency Facility,Candia,,N
+F0026,Candia Fire Station,Emergency Facility,Candia,,N
+S0001,Concord Middle School,Shelter,Concord,HZ001,Y
+S0002,Concord Middle School,Shelter,Concord,HZ001,Y
+S0003,Bow Community Center,Shelter,Bow,,N
+S0004,Pembroke High School,Shelter,Pembroke,,N
+S0005,Allenstown Recreation Center,Shelter,Allenstown,,N
+S0006,Hooksett Middle School,Shelter,Hooksett,HZ002,Y
+S0007,Hooksett High School,Shelter,Hooksett,HZ002,Y
+S0008,Dunbarton Middle School,Shelter,Dunbarton,,N
+S0009,Goffstown High School,Shelter,Goffstown,,N
+S0010,Goffstown Middle School,Shelter,Goffstown,,N
+S0011,Manchester Community Center,Shelter,Manchester,HZ003,Y
+S0012,Manchester High School,Shelter,Manchester,HZ003,Y
+S0013,Auburn High School,Shelter,Auburn,,N
+S0014,Candia Community Center,Shelter,Candia,,N
+H001,Concord Area Medical Center,Hospital,Concord,HZ001,Y
+H002,Riverbend Acute Care,Hospital,Concord,HZ001,Y
+H003,Hooksett Regional Hospital,Hospital,Hooksett,HZ002,Y
+H004,Manchester General Hospital,Hospital,Manchester,HZ003,Y
+H005,Queen City Medical Center,Hospital,Manchester,HZ003,Y
+H006,Goffstown Community Hospital,Hospital,Goffstown,,N

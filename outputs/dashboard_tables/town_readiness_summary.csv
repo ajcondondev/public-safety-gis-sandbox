@@ -1,0 +1,11 @@
+town,county,population,incident_count,open_high_severity,facility_count,shelter_count,shelter_capacity,hospital_count,hazard_exposed_assets
+Manchester,Hillsborough,115644,63,5,6,2,200,2,10
+Concord,Merrimack,43976,26,3,3,2,200,2,6
+Goffstown,Hillsborough,18579,9,2,3,2,350,1,0
+Hooksett,Merrimack,14871,8,1,2,2,450,1,5
+Auburn,Rockingham,5891,4,0,2,1,50,0,0
+Pembroke,Merrimack,7115,3,0,2,1,50,0,0
+Bow,Merrimack,7519,2,1,2,1,150,0,0
+Dunbarton,Merrimack,2758,2,0,2,1,150,0,0
+Candia,Rockingham,4019,2,1,2,1,150,0,0
+Allenstown,Merrimack,4774,1,0,2,1,100,0,0

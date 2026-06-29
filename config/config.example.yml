@@ -1,0 +1,51 @@
+# =============================================================================
+# Concord-Manchester Public Safety GIS Readiness Dashboard
+# Example configuration file
+# -----------------------------------------------------------------------------
+# GIS Solutions Engineer skill demonstrated: configuration-driven, repeatable
+# workflows. Operational parameters (paths, validation thresholds, analysis
+# distances) live here instead of being hard-coded in scripts, so the pipeline
+# can be re-pointed at new data or re-tuned without editing code.
+#
+# USAGE: copy this file to config/config.yml and edit as needed.
+#   cp config/config.example.yml config/config.yml
+# The scripts load config/config.yml if it exists, otherwise fall back to this
+# example file. config/config.yml is git-ignored so local settings stay private.
+# =============================================================================
+
+project:
+  name: "Concord-Manchester Public Safety GIS Readiness Dashboard"
+  # WGS84 lat/long. This is the storage/interchange CRS for GeoJSON and AGOL.
+  # In ArcGIS Pro you would project to NH State Plane (EPSG:3437, US ft) for
+  # accurate distance/area work. See docs/arcgis_workflow.md.
+  crs: "EPSG:4326"
+
+paths:
+  raw: "data/raw"                       # real downloaded source data (you add this)
+  simulated: "data/simulated"           # generated demo data (script 01)
+  processed: "data/processed"           # cleaned, standardized CSVs (script 02)
+  outputs: "outputs"
+  geojson: "outputs/geojson"            # map-ready GeoJSON (scripts 02 & 04)
+  dashboard_tables: "outputs/dashboard_tables"  # CSVs for PowerBI / Dashboards (05)
+  reports: "outputs/reports"            # Markdown QA/QC + summary reports (03 & 06)
+  maps: "outputs/maps"                  # exported map images / mapbook PDFs (manual)
+  database: "outputs/public_safety_gis.sqlite"  # SQLite stand-in for SQL Server
+
+# Validation thresholds. A coordinate outside this bounding box is flagged as
+# an error (the box loosely covers south-central New Hampshire). Tighten or
+# widen this when you re-target the project to another region.
+validation:
+  lat_min: 42.5
+  lat_max: 43.6
+  lon_min: -72.2
+  lon_max: -71.0
+
+# Spatial analysis parameters (script 04).
+analysis:
+  # Rings used for incident -> nearest-facility proximity analysis.
+  proximity_radius_miles: [1.0, 3.0, 5.0]
+  # Buffer distance used to flag facilities exposed to a hazard zone.
+  hazard_buffer_miles: 2.0
+
+# Random seed for reproducible simulated data (script 01).
+seed: 42

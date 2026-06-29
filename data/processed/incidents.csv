@@ -1,0 +1,121 @@
+incident_id,incident_type,severity,town,latitude,longitude,reported_at,status,simulated_flag
+INC00001,Motor Vehicle Crash,Low,Manchester,42.969996,-71.472011,2026-06-20T18:16:00Z,Open,Y
+INC00002,Power Outage,Low,Dunbarton,43.080365,-71.592575,2026-06-08T11:45:00Z,In Progress,Y
+INC00003,Power Outage,High,Candia,43.102105,-71.300485,2026-06-17T00:56:00Z,Open,Y
+INC00004,Power Outage,Low,Concord,43.195005,71.45,2026-06-18T04:21:00Z,Open,Y
+INC00005,Structure Fire,Low,Manchester,42.971138,-71.459385,2026-06-16T08:17:00Z,Open,Y
+INC00006,Downed Tree,Low,Hooksett,43.099001,-71.469439,2026-06-09T05:00:00Z,Open,Y
+INC00007,Structure Fire,Moderate,Manchester,43.015676,-71.449849,2026-06-05T17:09:00Z,In Progress,Y
+INC00008,Severe Weather,Low,Concord,43.190705,-71.552628,2026-06-26T01:06:00Z,In Progress,Y
+INC00009,Flooding,High,Manchester,99.9,-71.470596,2026-06-20T23:10:00Z,Closed,Y
+INC00010,Severe Weather,High,Manchester,43.012543,-71.460097,2026-06-01T05:42:00Z,Closed,Y
+INC00011,Motor Vehicle Crash,Low,Manchester,42.988553,-71.482477,2026-06-26T22:30:00Z,Open,Y
+INC00012,Hazmat Spill,Moderate,Manchester,42.96702,-71.473212,2026-06-10T07:21:00Z,In Progress,Y
+INC00013,Medical Emergency,High,Concord,,-71.51698,2026-06-12T20:21:00Z,Closed,Y
+INC00014,Power Outage,Critical,Concord,43.180395,-71.531806,2026-06-06T18:22:00Z,Closed,Y
+INC00015,Medical Emergency,Moderate,Hooksett,43.11987,-71.483695,2026-06-17T03:02:00Z,Closed,Y
+INC00016,Hazmat Spill,Critical,Concord,43.199953,-71.563402,2026-06-18T21:42:00Z,Closed,Y
+INC00017,Power Outage,Moderate,Manchester,42.996027,-71.444786,2026-06-04T23:20:00Z,In Progress,Y
+INC00018,Medical Emergency,Low,Hooksett,43.106539,-71.440932,2026-06-14T21:39:00Z,Closed,Y
+INC00019,Hazmat Spill,High,Goffstown,43.016993,-71.596101,2026-06-10T09:41:00Z,In Progress,Y
+INC00020,Flooding,Moderate,Goffstown,43.030731,-71.613873,2026-06-17T15:42:00Z,Closed,Y
+INC00021,Power Outage,High,Hooksett,43.079378,-71.483152,2026-06-25T07:01:00Z,Open,Y
+INC00022,Downed Tree,Moderate,Candia,43.071066,-71.268914,2026-06-25T02:12:00Z,Closed,Y
+INC00023,Structure Fire,Low,Goffstown,43.04476,-71.579274,2026-06-05T20:56:00Z,Open,Y
+INC00024,Downed Tree,Low,Goffstown,42.994213,-71.615948,2026-06-23T16:54:00Z,Open,Y
+INC00025,Severe Weather,Moderate,Concord,43.235102,-71.514114,2026-06-17T17:39:00Z,Closed,Y
+INC00026,Flooding,Moderate,Manchester,43.010219,-71.45632,2026-06-18T14:16:00Z,Closed,Y
+INC00027,Downed Tree,Low,Manchester,43.003205,-71.468324,2026-06-25T16:04:00Z,Closed,Y
+INC00028,Flooding,Low,Pembroke,43.12245,-71.466518,2026-06-18T02:09:00Z,Closed,Y
+INC00029,Medical Emergency,Moderate,Concord,43.181836,-71.517627,2026-06-18T14:24:00Z,Closed,Y
+INC00030,Medical Emergency,Moderate,Manchester,42.994219,-71.428236,2026-06-25T18:19:00Z,Closed,Y
+INC00031,Hazmat Spill,Critical,Manchester,42.994894,-71.468424,2026-06-14T17:31:00Z,Open,Y
+INC00032,Flooding,Moderate,Hooksett,43.11633,-71.439928,2026-06-13T23:39:00Z,Closed,Y
+INC00033,Motor Vehicle Crash,Moderate,Manchester,43.004165,-71.476658,2026-06-22T00:29:00Z,Open,Y
+INC00034,Severe Weather,Low,Pembroke,43.159074,-71.466752,2026-06-15T10:48:00Z,Closed,Y
+INC00035,Structure Fire,High,Goffstown,43.051194,-71.609902,2026-06-16T00:41:00Z,Open,Y
+INC00036,Hazmat Spill,Low,Auburn,43.025154,-71.34132,2026-06-01T07:15:00Z,Open,Y
+INC00037,Power Outage,Moderate,Manchester,43.011614,-71.474733,2026-06-07T14:38:00Z,Closed,Y
+INC00038,Motor Vehicle Crash,High,Manchester,43.000321,-71.429067,2026-06-06T09:36:00Z,Closed,Y
+INC00039,Motor Vehicle Crash,Low,Auburn,43.010326,-71.328766,2026-06-23T06:15:00Z,Open,Y
+INC00040,Structure Fire,High,Manchester,42.986432,-71.459097,2026-06-20T03:23:00Z,Open,Y
+INC00041,Motor Vehicle Crash,Low,Manchester,42.991611,-71.463069,2026-06-14T15:57:00Z,Closed,Y
+INC00042,Power Outage,Moderate,Manchester,43.002555,-71.429623,2026-06-24T16:49:00Z,Closed,Y
+INC00043,Hazmat Spill,High,Goffstown,43.041044,-71.6257,2026-06-09T10:56:00Z,Closed,Y
+INC00044,Severe Weather,Moderate,Manchester,42.967322,-71.433743,2026-06-22T12:11:00Z,Closed,Y
+INC00045,Power Outage,Low,Dunbarton,43.104247,-71.611602,2026-06-09T19:12:00Z,Open,Y
+INC00046,Downed Tree,Moderate,Manchester,43.004354,-71.455351,2026-06-25T07:50:00Z,Open,Y
+INC00047,Severe Weather,Moderate,Hooksett,43.094296,-71.463245,2026-06-08T09:27:00Z,Closed,Y
+INC00048,Power Outage,Low,Manchester,42.980684,-71.477561,2026-06-15T08:12:00Z,In Progress,Y
+INC00049,Hazmat Spill,Critical,Manchester,42.978583,-71.455748,2026-06-23T05:46:00Z,Closed,Y
+INC00050,Power Outage,Moderate,Manchester,42.979249,-71.474034,2026-06-04T06:00:00Z,Closed,Y
+INC00051,Power Outage,Low,Concord,43.219945,-71.560023,2026-06-02T17:55:00Z,Closed,Y
+INC00052,Downed Tree,Low,Concord,43.204528,-71.556538,2026-06-10T15:03:00Z,In Progress,Y
+INC00053,Downed Tree,Low,Manchester,42.970045,-71.447033,2026-06-03T12:03:00Z,Open,Y
+INC00054,Motor Vehicle Crash,Critical,Manchester,42.999084,-71.45983,2026-06-03T07:38:00Z,Closed,Y
+INC00055,Power Outage,Moderate,Bow,43.15921,-71.514598,2026-06-15T14:19:00Z,Closed,Y
+INC00056,Hazmat Spill,Critical,Concord,43.193979,-71.562729,2026-06-04T06:15:00Z,Open,Y
+INC00057,Downed Tree,Low,Concord,43.195576,-71.553711,2026-06-15T22:45:00Z,In Progress,Y
+INC00058,Hazmat Spill,Low,Manchester,42.991108,-71.452126,2026-06-08T08:41:00Z,Open,Y
+INC00059,Power Outage,Low,Allenstown,43.154403,-71.381746,2026-06-02T05:58:00Z,In Progress,Y
+INC00060,Power Outage,Moderate,Concord,43.208128,-71.537972,2026-06-23T12:05:00Z,Closed,Y
+INC00061,Structure Fire,High,Manchester,42.97108,-71.427085,2026-06-20T08:53:00Z,Closed,Y
+INC00062,Power Outage,Low,Manchester,43.000175,-71.439013,2026-06-25T21:11:00Z,Closed,Y
+INC00063,Medical Emergency,High,Manchester,43.003687,-71.455296,2026-06-06T18:05:00Z,Closed,Y
+INC00064,Severe Weather,Low,Goffstown,43.015899,-71.601172,2026-06-04T05:42:00Z,Closed,Y
+INC00065,Severe Weather,Moderate,Manchester,42.980744,-71.477845,2026-06-15T02:49:00Z,In Progress,Y
+INC00066,Downed Tree,Critical,Manchester,42.990395,-71.473545,2026-06-22T17:23:00Z,Closed,Y
+INC00067,Power Outage,Moderate,Manchester,42.998553,-71.42914,2026-06-02T06:28:00Z,Closed,Y
+INC00068,Hazmat Spill,Low,Manchester,43.008187,-71.466155,2026-06-21T19:00:00Z,Closed,Y
+INC00069,Motor Vehicle Crash,Critical,Concord,43.216963,-71.558362,2026-06-04T14:59:00Z,Closed,Y
+INC00070,Downed Tree,Low,Manchester,42.980224,-71.451724,2026-06-27T15:24:00Z,Open,Y
+INC00071,Power Outage,High,Manchester,43.011961,-71.433535,2026-06-05T02:21:00Z,Closed,Y
+INC00072,Power Outage,High,Manchester,43.015849,-71.450005,2026-06-10T23:42:00Z,Closed,Y
+INC00073,Medical Emergency,Moderate,Concord,43.205421,-71.548293,2026-06-12T10:12:00Z,Closed,Y
+INC00074,Structure Fire,Low,Pembroke,43.132491,-71.461121,2026-06-25T13:58:00Z,Closed,Y
+INC00075,Flooding,Moderate,Goffstown,43.02092,-71.628679,2026-06-27T20:32:00Z,Closed,Y
+INC00076,Downed Tree,Low,Hooksett,43.066821,-71.486451,2026-06-15T03:55:00Z,Closed,Y
+INC00077,Medical Emergency,Moderate,Concord,43.21709,-71.516494,2026-06-09T10:54:00Z,Closed,Y
+INC00078,Downed Tree,Critical,Manchester,43.017943,-71.482646,2026-06-21T22:04:00Z,Open,Y
+INC00079,Motor Vehicle Crash,Low,Manchester,42.991638,-71.478893,2026-06-08T23:40:00Z,Closed,Y
+INC00080,Structure Fire,Low,Concord,43.197562,-71.564233,2026-06-10T00:22:00Z,In Progress,Y
+INC00081,Flooding,Moderate,Concord,43.188299,-71.562862,2026-06-19T21:55:00Z,In Progress,Y
+INC00082,Hazmat Spill,Moderate,Manchester,42.993269,-71.469561,2026-06-19T04:16:00Z,Closed,Y
+INC00083,Flooding,Moderate,Manchester,42.970032,-71.428086,2026-06-10T21:37:00Z,In Progress,Y
+INC00084,Hazmat Spill,Moderate,Auburn,43.034762,-71.3274,2026-06-15T09:06:00Z,Open,Y
+INC00085,Structure Fire,Moderate,Manchester,43.024277,-71.445306,2026-06-23T09:17:00Z,Open,Y
+INC00086,Downed Tree,High,Manchester,43.01557,-71.430624,2026-06-02T19:49:00Z,Closed,Y
+INC00087,Power Outage,Low,Manchester,43.006266,-71.441544,2026-06-21T06:42:00Z,Closed,Y
+INC00088,Structure Fire,Low,Concord,43.196636,-71.541151,2026-06-21T20:37:00Z,In Progress,Y
+INC00089,Medical Emergency,High,Concord,43.188638,-71.55967,2026-06-11T23:34:00Z,Closed,Y
+INC00090,Power Outage,Moderate,Goffstown,43.046043,-71.574249,2026-06-09T05:51:00Z,In Progress,Y
+INC00091,Flooding,High,Manchester,43.010849,-71.471263,2026-06-15T02:43:00Z,Closed,Y
+INC00092,Severe Weather,Critical,Auburn,42.980218,-71.354926,2026-06-26T17:16:00Z,Closed,Y
+INC00093,Medical Emergency,Moderate,Manchester,43.014945,-71.428382,2026-06-22T08:06:00Z,Closed,Y
+INC00094,Hazmat Spill,Moderate,Manchester,43.004459,-71.446676,2026-06-18T10:29:00Z,Closed,Y
+INC00095,Structure Fire,Moderate,Hooksett,43.084162,-71.465543,2026-06-05T01:06:00Z,Open,Y
+INC00096,Medical Emergency,Low,Manchester,43.00084,-71.441204,2026-06-12T21:56:00Z,In Progress,Y
+INC00097,Structure Fire,Moderate,Concord,43.219517,-71.554564,2026-06-14T08:28:00Z,Closed,Y
+INC00098,Severe Weather,Low,Manchester,42.969233,-71.468247,2026-06-22T11:07:00Z,Closed,Y
+INC00099,Structure Fire,Low,Manchester,42.968635,-71.464789,2026-06-07T20:08:00Z,Closed,Y
+INC00100,Hazmat Spill,High,Bow,43.156383,-71.56002,2026-06-18T06:49:00Z,Open,Y
+INC00101,Power Outage,Low,Manchester,43.013511,-71.478204,2026-06-05T04:55:00Z,Open,Y
+INC00102,Severe Weather,High,Concord,43.179047,-71.551678,2026-06-08T18:08:00Z,Closed,Y
+INC00103,Severe Weather,High,Manchester,42.996394,-71.478257,2026-06-16T14:32:00Z,Open,Y
+INC00104,Power Outage,High,Manchester,42.993083,-71.426958,2026-06-22T16:03:00Z,Closed,Y
+INC00105,Downed Tree,Moderate,Manchester,42.970009,-71.479953,2026-06-04T15:38:00Z,Open,Y
+INC00106,Severe Weather,Moderate,Concord,43.200954,-71.531756,2026-06-19T17:18:00Z,Closed,Y
+INC00107,Hazmat Spill,Low,Manchester,42.991404,-71.431515,2026-06-23T03:26:00Z,In Progress,Y
+INC00108,Medical Emergency,Moderate,Manchester,42.984351,-71.469507,2026-06-04T10:09:00Z,Closed,Y
+INC00109,Medical Emergency,Low,Manchester,42.971394,-71.440472,2026-06-03T02:51:00Z,Open,Y
+INC00110,Motor Vehicle Crash,Critical,Concord,43.202749,-71.515184,2026-06-18T10:48:00Z,In Progress,Y
+INC00111,Power Outage,Low,Manchester,42.986699,-71.450125,2026-06-10T19:13:00Z,Open,Y
+INC00112,Severe Weather,High,Manchester,42.972493,-71.468086,2026-06-12T17:14:00Z,Closed,Y
+INC00113,Structure Fire,Critical,Manchester,43.00214,-71.44533,2026-06-27T19:44:00Z,In Progress,Y
+INC00114,Severe Weather,Moderate,Concord,43.178466,-71.515408,2026-06-10T10:36:00Z,Closed,Y
+INC00115,Hazmat Spill,High,Concord,43.200672,-71.540381,2026-06-01T02:10:00Z,In Progress,Y
+INC00116,Motor Vehicle Crash,High,Manchester,43.018601,-71.475465,2026-06-19T19:48:00Z,Closed,Y
+INC00117,Downed Tree,Low,Manchester,43.002025,-71.459949,2026-06-22T13:13:00Z,Closed,Y
+INC00118,Downed Tree,Moderate,Concord,43.209716,-71.549095,2026-06-10T21:14:00Z,In Progress,Y
+INC00119,Flooding,Low,Manchester,43.01145,-71.467433,2026-06-10T06:07:00Z,Open,Y
+INC00120,Hazmat Spill,Low,Manchester,42.995616,-71.434799,2026-06-13T17:51:00Z,In Progress,Y
