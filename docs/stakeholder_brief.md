@@ -4,7 +4,7 @@
 
 **To:** Emergency management leadership, public-safety officials, agency partners
 **From:** GIS Solutions (portfolio demonstration)
-**Re:** Concord–Manchester Public Safety GIS Readiness Dashboard
+**Re:** Public-Safety GIS Sandbox — Concord–Manchester, NH corridor
 **Length:** ~1–2 pages, plain English
 
 ---

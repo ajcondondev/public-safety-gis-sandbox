@@ -1,8 +1,10 @@
 <div align="center">
 
-# 🛰️ Concord–Manchester Public Safety GIS Readiness Dashboard
+# 🛰️ Public-Safety GIS Sandbox
 
-**An end-to-end public-safety GIS pipeline — clean → validate → analyze → map → dashboard → report — for the Concord-to-Manchester, NH emergency-response corridor.**
+### Concord–Manchester, New Hampshire corridor
+
+**A hands-on project exploring how GIS supports emergency planning — clean → validate → analyze → map → dashboard → report — using a simulated New Hampshire corridor.**
 
 [![CI](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml/badge.svg)](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)

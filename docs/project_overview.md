@@ -4,7 +4,7 @@
 
 ## Purpose
 
-The **Concord–Manchester Public Safety GIS Readiness Dashboard** is a portfolio
+The **Public-Safety GIS Sandbox** (Concord–Manchester, NH corridor) is a learning / portfolio
 project that demonstrates the end-to-end work of a **GIS Solutions Engineer**
 supporting emergency management and public safety. It takes geospatial data from
 raw inputs through cleaning, validation, analysis, and publication-ready outputs,

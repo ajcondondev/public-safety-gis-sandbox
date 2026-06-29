@@ -1,8 +1,10 @@
-# Concord–Manchester Public Safety GIS — Summary Report
+# Public-Safety GIS Sandbox — Summary Report
+
+_Concord–Manchester, New Hampshire corridor_
 
 > **This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
 
-_Generated: 2026-06-29T20:19:19Z_
+_Generated: 2026-06-29T20:27:11Z_
 
 ## At a glance
 

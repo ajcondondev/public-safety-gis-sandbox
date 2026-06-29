@@ -149,7 +149,7 @@ def main():
     html = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Concord-Manchester Public Safety GIS — Dashboard</title>
+<title>Public-Safety GIS Sandbox — Dashboard</title>
 <style>
   body {{ font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }}
   header {{ background: #1b3a5b; color: #fff; padding: 14px 22px; }}
@@ -176,8 +176,8 @@ def main():
 </style></head>
 <body>
 <header>
-  <h1>Concord–Manchester Public Safety GIS Readiness Dashboard</h1>
-  <div>Operational view · generated {now_iso(seconds=True)}</div>
+  <h1>🛰️ Public-Safety GIS Sandbox — Dashboard</h1>
+  <div>Concord–Manchester, NH corridor · generated {now_iso(seconds=True)}</div>
 </header>
 <div class="disclaimer"><b>DEMO:</b> {DISCLAIMER}</div>
 <div class="wrap">
@@ -203,7 +203,7 @@ def main():
   <div class="panel"><h3>Coverage gaps — high priority &gt; 3 mi from a facility</h3>{gap_tbl}</div>
   <div class="panel"><h3>Town readiness summary</h3>{town_tbl}</div>
 </div>
-<footer>Concord–Manchester Public Safety GIS · portfolio demonstration · simulated data</footer>
+<footer>Public-Safety GIS Sandbox · Concord–Manchester, NH · learning project · simulated data</footer>
 </body></html>"""
 
     out_path = repo_path(cfg["paths"]["outputs"], "dashboard", "index.html")
@@ -243,7 +243,7 @@ def write_portal(cfg, n_incidents, n_facilities, n_shelters, n_hospitals):
     portal = f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Concord-Manchester Public Safety GIS — Outputs</title>
+<title>Public-Safety GIS Sandbox — Outputs</title>
 <style>
   body {{ font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }}
   header {{ background: #1b3a5b; color: #fff; padding: 22px; text-align: center; }}
@@ -261,8 +261,8 @@ def write_portal(cfg, n_incidents, n_facilities, n_shelters, n_hospitals):
 </style></head>
 <body>
 <header>
-  <h1>🛰️ Concord–Manchester Public Safety GIS Readiness Dashboard</h1>
-  <div>Generated outputs · {now_iso(seconds=True)}</div>
+  <h1>🛰️ Public-Safety GIS Sandbox</h1>
+  <div>Concord–Manchester, NH corridor · generated outputs · {now_iso(seconds=True)}</div>
 </header>
 <div class="disclaimer"><b>DEMO:</b> {DISCLAIMER}</div>
 <div class="stats">{n_incidents} simulated incidents · {n_facilities} facilities ·

@@ -46,7 +46,7 @@ def main():
     stages = [s for s in STAGES if (s[0] in QUICK or not quick)]
 
     print("=" * 70)
-    print(" Concord–Manchester Public Safety GIS — pipeline run")
+    print(" Public-Safety GIS Sandbox (Concord–Manchester, NH) — pipeline run")
     print("=" * 70)
 
     if "--tests" in args:

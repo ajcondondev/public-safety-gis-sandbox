@@ -69,7 +69,9 @@ def main() -> None:
     warnings = len(qa[qa["severity"] == "WARNING"])
 
     L = []
-    L.append("# Concord–Manchester Public Safety GIS — Summary Report")
+    L.append("# Public-Safety GIS Sandbox — Summary Report")
+    L.append("")
+    L.append("_Concord–Manchester, New Hampshire corridor_")
     L.append("")
     L.append(DISCLAIMER)
     L.append("")

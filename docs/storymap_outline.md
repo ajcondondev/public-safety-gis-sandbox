@@ -11,7 +11,7 @@ one StoryMap block.
 
 ## Title block
 
-- **Title:** Concord–Manchester Public Safety GIS Readiness Dashboard
+- **Title:** Public-Safety GIS Sandbox — Concord–Manchester, NH corridor
 - **Subtitle:** A portfolio demonstration of GIS for emergency planning
 - **Cover:** a regional overview map screenshot.
 - **Prominent disclaimer:** *"Portfolio demonstration using public or simulated data — not an official emergency management product."*

@@ -1,5 +1,5 @@
 # =============================================================================
-# Concord-Manchester Public Safety GIS Readiness Dashboard
+# Public-Safety GIS Sandbox (Concord-Manchester, NH)
 # Example configuration file
 # -----------------------------------------------------------------------------
 # GIS Solutions Engineer skill demonstrated: configuration-driven, repeatable
@@ -14,7 +14,7 @@
 # =============================================================================
 
 project:
-  name: "Concord-Manchester Public Safety GIS Readiness Dashboard"
+  name: "Public-Safety GIS Sandbox (Concord-Manchester, NH)"
   # WGS84 lat/long. This is the storage/interchange CRS for GeoJSON and AGOL.
   # In ArcGIS Pro you would project to NH State Plane (EPSG:3437, US ft) for
   # accurate distance/area work. See docs/arcgis_workflow.md.
