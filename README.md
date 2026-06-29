@@ -6,6 +6,7 @@
 
 **A hands-on project exploring how GIS supports emergency planning — clean → validate → analyze → map → dashboard → report — using a simulated New Hampshire corridor.**
 
+[![Live demo](https://img.shields.io/badge/live%20demo-online-2ea44f?logo=github)](https://ajcondondev.github.io/public-safety-gis-sandbox/)
 [![CI](https://github.com/ajcondondev/public-safety-gis-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/ajcondondev/public-safety-gis-sandbox/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -24,7 +25,7 @@ I'm genuinely curious about how GIS supports public safety and emergency managem
 It's a **learning project**: a way to actually work through the concepts, tools, and trade-offs in this field instead of just reading about them — and to explain what I found along the way. Everything runs from Python in seconds, and **all data is simulated and safe** (no real 911 or private data).
 
 - 🔍 **Curious how public-safety GIS works?** It walks through the ideas concept by concept — start with the [Learning guide](docs/learning_guide.md) and [Glossary](docs/glossary.md).
-- 🗺️ **Just want to see it?** Open **`outputs/index.html`** — it links the interactive map, the dashboard, and the reports (no GIS software needed).
+- 🗺️ **Just want to see it?** 👉 **[Open the live demo](https://ajcondondev.github.io/public-safety-gis-sandbox/)** — the interactive map, dashboard, and reports, right in your browser (no install, no GIS software). Locally it's `outputs/index.html`.
 - 🧰 **What it touches:** data engineering, QA/QC, spatial analysis, SQL, dashboards, automation, and documentation — end to end.
 
 > **⚠️ This is a personal learning / portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
@@ -292,13 +293,13 @@ deterministic):
 
 > **Tip:** open **`outputs/index.html`** in a browser — it links the interactive map, the dashboard, and the reports. These are the most portfolio-visible artifacts and need no GIS software.
 
-### Publishing a live demo (optional)
+### Live demo
 
-Because all outputs are static HTML, you can serve them as a free public site:
-make the repo public, then enable **GitHub Pages** (Settings → Pages → deploy from
-`main`, folder `/outputs`). `outputs/index.html` becomes the live landing page —
-a single shareable link to the interactive map and dashboard. (GitHub Pages on a
-private repo requires a paid plan.)
+The outputs are published to **GitHub Pages** at
+**https://ajcondondev.github.io/public-safety-gis-sandbox/** — a single shareable
+link to the interactive map, dashboard, and reports, with nothing to install.
+The [`pages.yml`](.github/workflows/pages.yml) workflow rebuilds the pipeline and
+redeploys on every push, so the live demo always matches the code.
 
 ## What would be done in ArcGIS Pro
 
