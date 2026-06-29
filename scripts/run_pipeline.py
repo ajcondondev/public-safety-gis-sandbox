@@ -86,6 +86,7 @@ def main():
         print(f"  [{num}] {'OK ' if ok else 'FAIL'}  {dt:5.1f}s  {desc}")
     print(f"  Total: {total:.1f}s")
     print("\nArtifacts:")
+    print("  outputs/index.html                  (START HERE — links everything)")
     print("  outputs/maps/interactive_map.html   (open in a browser)")
     print("  outputs/dashboard/index.html        (open in a browser)")
     print("  outputs/reports/                    (qa_qc_report.md, summary_report.md)")

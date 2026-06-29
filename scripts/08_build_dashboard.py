@@ -211,7 +211,70 @@ def main():
     with open(out_path, "w", encoding="utf-8") as fh:
         fh.write(html)
     log(f"Wrote HTML dashboard -> {os.path.relpath(out_path, repo_path())}")
+
+    write_portal(cfg, len(incidents), len(facilities), len(shelters), len(hospitals))
     log("Dashboard complete. Open outputs/dashboard/index.html in a browser.")
+
+
+def write_portal(cfg, n_incidents, n_facilities, n_shelters, n_hospitals):
+    """
+    Write outputs/index.html — a single landing page that links every artifact
+    (map, dashboard, reports, metadata). Makes the outputs/ folder self-navigating
+    and ready to serve as a one-click demo (e.g. via GitHub Pages).
+    """
+    cards = [
+        ("🗺️ Interactive map", "maps/interactive_map.html",
+         "Pan/zoom/click incidents, facilities, shelters, hospitals, and hazard zones."),
+        ("📊 Operational dashboard", "dashboard/index.html",
+         "KPI tiles, charts, act-now incident list, and town readiness."),
+        ("🧾 QA/QC report", "reports/qa_qc_report.md",
+         "Data-quality findings from the validation stage."),
+        ("📈 Summary report", "reports/summary_report.md",
+         "Plain-English headline indicators for stakeholders."),
+        ("🗂️ Layer metadata", "metadata/metadata.json",
+         "FGDC/ISO-style metadata: lineage, CRS, extent, fields."),
+        ("🛰️ Regional map (PNG)", "maps/regional_overview.png",
+         "Static map of response assets across the corridor."),
+    ]
+    card_html = "".join(
+        f'<a class="card" href="{href}"><div class="card-t">{title}</div>'
+        f'<div class="card-d">{desc}</div></a>' for title, href, desc in cards)
+
+    portal = f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Concord-Manchester Public Safety GIS — Outputs</title>
+<style>
+  body {{ font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }}
+  header {{ background: #1b3a5b; color: #fff; padding: 22px; text-align: center; }}
+  header h1 {{ margin: 0 0 4px; font-size: 22px; }}
+  .disclaimer {{ background: #fde7e7; color: #8a1a1a; padding: 8px 22px; font-size: 13px; text-align: center; }}
+  .stats {{ text-align: center; color: #555; padding: 14px; font-size: 14px; }}
+  .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+           gap: 16px; max-width: 1000px; margin: 0 auto; padding: 0 22px 30px; }}
+  .card {{ background: #fff; border-radius: 10px; padding: 18px; text-decoration: none;
+           color: #1b3a5b; box-shadow: 0 1px 4px rgba(0,0,0,0.12); transition: transform .08s; }}
+  .card:hover {{ transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,0.18); }}
+  .card-t {{ font-size: 17px; font-weight: 700; margin-bottom: 6px; }}
+  .card-d {{ font-size: 13px; color: #555; }}
+  footer {{ text-align: center; color: #888; font-size: 12px; padding: 18px; }}
+</style></head>
+<body>
+<header>
+  <h1>🛰️ Concord–Manchester Public Safety GIS Readiness Dashboard</h1>
+  <div>Generated outputs · {now_iso(seconds=True)}</div>
+</header>
+<div class="disclaimer"><b>DEMO:</b> {DISCLAIMER}</div>
+<div class="stats">{n_incidents} simulated incidents · {n_facilities} facilities ·
+  {n_shelters} shelters · {n_hospitals} hospitals</div>
+<div class="grid">{card_html}</div>
+<footer>Portfolio demonstration · simulated data · not for operational use</footer>
+</body></html>"""
+
+    portal_path = repo_path(cfg["paths"]["outputs"], "index.html")
+    with open(portal_path, "w", encoding="utf-8") as fh:
+        fh.write(portal)
+    log(f"Wrote outputs portal  -> {os.path.relpath(portal_path, repo_path())}")
 
 
 if __name__ == "__main__":

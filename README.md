@@ -78,7 +78,7 @@ See [`docs/project_overview.md`](docs/project_overview.md) for how each project 
 |---|---|
 | Data preparation & cleaning (ETL) | `scripts/02_load_clean_data.py` |
 | Data quality / QA-QC validation | `scripts/03_validate_gis_data.py`, [`docs/qa_qc_plan.md`](docs/qa_qc_plan.md) |
-| Automation (repeatable pipeline) | `scripts/01`–`06`, `config/` |
+| Automation (repeatable pipeline) | `scripts/01`–`09`, `scripts/run_pipeline.py`, `config/` |
 | Geospatial analysis (proximity, overlay, priority) | `scripts/04_generate_analysis_layers.py` |
 | SQL / database modeling | `sql/schema.sql`, `sql/qa_queries.sql`, `sql/summary_queries.sql` |
 | Dashboard readiness | `scripts/05_export_dashboard_tables.py`, [`docs/dashboard_design.md`](docs/dashboard_design.md) |
@@ -137,27 +137,33 @@ tables, and reports an emergency manager would use to plan and brief leadership.
 
 ## Data workflow
 
+The pipeline moves data through layers — source → processed → analysis → serving
+→ presentation — the same pattern used in enterprise GIS. Full diagrams
+(including the relational data model) are in [`docs/architecture.md`](docs/architecture.md).
+
+```mermaid
+flowchart LR
+    RAW[data/raw<br/>real data - optional] --> C
+    SIM[data/simulated<br/>script 01] --> C[02 clean/<br/>standardize]
+    C --> V[03 validate<br/>QA/QC]
+    C --> A[04 analyze<br/>proximity · hazard · priority]
+    A --> S[05 tables + SQLite]
+    S --> R[06 report]
+    A --> M[07 maps]
+    S --> D[08 dashboard + portal]
+    A --> MD[09 metadata]
+    S --> MD
+    R --> OUT[(outputs/<br/>maps · dashboard · reports · metadata · DB)]
+    M --> OUT
+    D --> OUT
+    MD --> OUT
+    V -. errors block publishing .-> C
+    style V fill:#fde7e7,stroke:#b30000
+    style OUT fill:#e7f0fd,stroke:#1b3a5b
 ```
-            ┌─────────────┐
- data/raw/  │ (you supply │   real downloaded data (optional)
-            │  real data) │
-            └──────┬──────┘
-                   │  pick raw if present, else simulated
- data/simulated/   ▼
- (script 01) ─► 02 clean/standardize ─► data/processed/  +  outputs/geojson/
-                   │
-                   ├─► 03 validate ─────► outputs/reports/qa_qc_report.md
-                   │                       outputs/dashboard_tables/qa_results.csv
-                   │
-                   ├─► 04 analyze ──────► outputs/geojson/incidents_analyzed.geojson
-                   │   (proximity,         outputs/dashboard_tables/*proximity*.csv
-                   │    hazard, priority)  outputs/dashboard_tables/*hazard_exposure*.csv
-                   │
-                   ├─► 05 serve ────────► outputs/dashboard_tables/*.csv (aggregates)
-                   │   (tables + SQL)      outputs/public_safety_gis.sqlite
-                   │
-                   └─► 06 report ───────► outputs/reports/summary_report.md
-```
+
+Re-point any stage at real data by dropping a file with the same name/columns
+into `data/raw/` — script 02 prefers it over the simulated copy (no code change).
 
 ## Tools used
 
@@ -183,12 +189,14 @@ sql/            schema.sql, qa_queries.sql, summary_queries.sql
 tests/          test_pipeline.py (unittest: geometry + validation)
 notebooks/      exploratory_analysis.ipynb
 outputs/
+  index.html    portal landing page linking every artifact (open this first)
   geojson/      map-ready layers (points + hazard polygons)
   dashboard_tables/  CSVs for PowerBI / ArcGIS Dashboards + qa_results
   reports/      qa_qc_report.md, summary_report.md
   maps/         interactive_map.html + static PNG maps
   dashboard/    index.html (self-contained operational dashboard)
   metadata/     per-layer metadata sheets + metadata.json
+CONTRIBUTING.md  CHANGELOG.md  LICENSE
 docs/           learning_guide, glossary, architecture (diagrams),
                 project_overview, data_dictionary, data_sources, qa_qc_plan,
                 arcgis_workflow, arcade_examples, dashboard_design,
@@ -267,8 +275,17 @@ deterministic):
 - **`outputs/maps/regional_overview.png`** & **`incident_priority.png`** — static maps for screenshots / the StoryMap / a mapbook.
 - **`outputs/dashboard/index.html`** — a **working HTML operational dashboard** (KPI tiles, charts, act-now incident list, town readiness) built from the CSVs.
 - **`outputs/metadata/`** — **FGDC/ISO-style metadata** (one Markdown sheet per layer + a combined `metadata.json`) documenting lineage, CRS, extent, fields, and use constraints.
+- **`outputs/index.html`** — a **portal landing page** that links every artifact above (map, dashboard, reports, metadata) — the one file to open first.
 
-> **Tip:** open `outputs/dashboard/index.html` and `outputs/maps/interactive_map.html` in a browser — these are the most portfolio-visible artifacts and need no GIS software.
+> **Tip:** open **`outputs/index.html`** in a browser — it links the interactive map, the dashboard, and the reports. These are the most portfolio-visible artifacts and need no GIS software.
+
+### Publishing a live demo (optional)
+
+Because all outputs are static HTML, you can serve them as a free public site:
+make the repo public, then enable **GitHub Pages** (Settings → Pages → deploy from
+`main`, folder `/outputs`). `outputs/index.html` becomes the live landing page —
+a single shareable link to the interactive map and dashboard. (GitHub Pages on a
+private repo requires a paid plan.)
 
 ## What would be done in ArcGIS Pro
 

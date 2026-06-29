@@ -45,6 +45,7 @@ jobs:
           test -f outputs/reports/qa_qc_report.md
           test -f outputs/maps/interactive_map.html
           test -f outputs/dashboard/index.html
+          test -f outputs/index.html
           test -f outputs/metadata/metadata.json
           echo "All key artifacts generated."
 

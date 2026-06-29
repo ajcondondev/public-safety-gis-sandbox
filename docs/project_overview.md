@@ -28,7 +28,7 @@ Goffstown, Manchester, Auburn, and Candia.
 
 | Deliverable | Artifact | Responsibility demonstrated |
 |---|---|---|
-| Reproducible data pipeline | `scripts/01`–`06`, `config/` | **Automation** of repetitive GIS data processing |
+| Reproducible data pipeline | `scripts/01`–`09`, `config/` | **Automation** of repetitive GIS data processing |
 | Simulated data model | `data/simulated/`, `docs/data_dictionary.md` | **Data architecture** & schema design |
 | Cleaning / standardization | `scripts/02` | **Data preparation / ETL** |
 | Quality validation | `scripts/03`, `docs/qa_qc_plan.md`, `outputs/reports/qa_qc_report.md` | **QA/QC** and GIS data accuracy |

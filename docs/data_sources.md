@@ -58,4 +58,4 @@ formatting differences are handled automatically.
 - Change the random seed or validation bounds in `config/config.yml`.
 - Edit the `TOWNS` table or the type/severity lists in
   `scripts/01_create_project_structure.py` to re-target another region.
-- Re-run `scripts/01` … `06` to regenerate everything downstream.
+- Re-run `scripts/01` … `09` (or `python scripts/run_pipeline.py`) to regenerate everything downstream.

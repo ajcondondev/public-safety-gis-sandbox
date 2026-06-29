@@ -2,7 +2,7 @@
 
 > **This is a portfolio demonstration using public or simulated data. It is not an official emergency management product and should not be used for operational decision-making.**
 
-_Generated: 2026-06-29T19:59:29Z_  
+_Generated: 2026-06-29T20:19:18Z_  
 _Config: `config\config.example.yml`_
 
 ## Summary

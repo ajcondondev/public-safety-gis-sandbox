@@ -78,7 +78,7 @@ lists; a "P1/P2 only" filter button isolates urgent incidents.
 
 ## Refresh / automation
 
-- The CSVs regenerate by re-running `scripts/01`–`06`.
+- The CSVs regenerate by re-running `scripts/01`–`09` (or `python scripts/run_pipeline.py`).
 - In production, schedule the pipeline (Task Scheduler / cron), publish hosted
   layers via the ArcGIS API for Python, and let the dashboard read the live
   feature service — so the dashboard updates without manual steps.

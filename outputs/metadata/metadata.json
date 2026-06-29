@@ -1,6 +1,6 @@
 {
   "metadata_standard": "FGDC-CSDGM / ISO 19115 (simplified, portfolio demo)",
-  "generated": "2026-06-29T19:59:32Z",
+  "generated": "2026-06-29T20:19:21Z",
   "spatial_reference": "EPSG:4326",
   "use_constraints": "Portfolio demonstration using public or simulated data. Not an official emergency management product; not for operational decision-making. Distances are straight-line approximations. Hazard zones are illustrative and not derived from any official source.",
   "layers": {
