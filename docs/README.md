@@ -9,6 +9,7 @@ All project documentation, grouped by purpose. New here? Start with the
 
 ## Understand the project
 - [Project overview](project_overview.md) — purpose, deliverables, and how each maps to the role.
+- [Design notes & lessons learned](design_notes.md) — the "why" behind the decisions and trade-offs.
 - [Architecture](architecture.md) — diagrams of the pipeline, data flow, and relational data model.
 - [Data dictionary](data_dictionary.md) — every dataset, field, type, and domain.
 - [Data sources](data_sources.md) — what's simulated, and how to swap in real public data safely.

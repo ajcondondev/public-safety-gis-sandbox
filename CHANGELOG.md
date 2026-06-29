@@ -14,6 +14,7 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
   code, stage-by-stage walkthrough, four-phases-of-emergency-management table,
   and interview prompts.
 - **Glossary** (`docs/glossary.md`) and **documentation index** (`docs/README.md`).
+- **Design notes** (`docs/design_notes.md`) — decisions, trade-offs, and lessons learned.
 - **Architecture diagrams** (`docs/architecture.md`) — Mermaid pipeline, data
   flow, and relational ERD.
 - **Optional scripts** (`scripts/optional/`): live NWS public-data ETL

@@ -110,6 +110,7 @@ docs make the concepts explicit:
 
 - 📘 **[Learning guide](docs/learning_guide.md)** — every GIS concept mapped to the exact code that demonstrates it, plus "try this" exercises and interview prompts.
 - 📑 **[Glossary](docs/glossary.md)** — GIS, data, Esri, and emergency-management terms in plain English.
+- 💭 **[Design notes & lessons learned](docs/design_notes.md)** — the "why" behind the decisions, the honest trade-offs, and what I took away.
 - 🗺️ **[Architecture](docs/architecture.md)** — diagrams of the pipeline, data flow, and relational data model (rendered by GitHub).
 
 ### How it supports the four phases of emergency management
