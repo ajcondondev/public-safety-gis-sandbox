@@ -6,7 +6,7 @@
 
 **A hands-on project exploring how GIS supports emergency planning — clean → validate → analyze → map → dashboard → report — using a simulated New Hampshire corridor.**
 
-[![CI](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml/badge.svg)](https://github.com/ajcondondev/concord-manchester-public-safety-gis/actions/workflows/ci.yml)
+[![CI](https://github.com/ajcondondev/public-safety-gis-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/ajcondondev/public-safety-gis-sandbox/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-12%20passing-brightgreen.svg)](tests/test_pipeline.py)

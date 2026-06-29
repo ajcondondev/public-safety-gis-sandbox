@@ -33,7 +33,7 @@ from datetime import datetime, timezone
 
 # api.weather.gov requires a descriptive User-Agent identifying the caller.
 NWS_URL = "https://api.weather.gov/alerts/active?area=NH"
-USER_AGENT = "concord-manchester-public-safety-gis (portfolio demo; contact via GitHub)"
+USER_AGENT = "public-safety-gis-sandbox (portfolio/learning demo; contact via GitHub)"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT_PATH = os.path.join(REPO_ROOT, "data", "raw", "nws_hazard_zones.geojson")
