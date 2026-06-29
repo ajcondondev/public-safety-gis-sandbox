@@ -1,0 +1,61 @@
+name: Deploy demo to GitHub Pages
+
+# Rebuilds the pipeline and publishes the outputs/ folder (portal, interactive
+# map, dashboard, reports, metadata) to GitHub Pages, so the live demo always
+# matches the code. outputs/index.html becomes the site landing page.
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-progress one.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt matplotlib
+
+      - name: Build all outputs
+        run: python scripts/run_pipeline.py
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload outputs as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: outputs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
